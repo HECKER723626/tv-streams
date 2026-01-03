@@ -2,13 +2,14 @@ name: Update Streams Every 15 Minutes
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Every 15 minutes
+    - cron: '*/15 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
-  trigger-netlify-build:
+  trigger-netlify:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Netlify Build
-        run: |
-          curl -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }}
