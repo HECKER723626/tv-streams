@@ -1,0 +1,24 @@
+{
+  "channels": [
+    {
+      "id": "news1",
+      "name": "BBC News",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/320px-BBC_News_2019.svg.png",
+      "source_type": "website",
+      "scrape_config": {
+        "url": "PASTE_YOUR_TV_WEBSITE_URL_HERE"
+      }
+    },
+    {
+      "id": "youtube1",
+      "name": "CNN Live",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/200px-CNN.svg.png",
+      "source_type": "youtube",
+      "scrape_config": {
+        "youtube_id": "YOUTUBE_LIVE_STREAM_ID"
+      }
+    }
+  ]
+}
