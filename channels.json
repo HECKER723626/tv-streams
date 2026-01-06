@@ -2567,6 +2567,2370 @@
       }
     },
     {
+      "id": "bein_sports_2_us",
+      "name": "beIN Sports 2",
+      "name_bn": "বিইন স্পোর্টস ২",
+      "country": "USA",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Bein_sports_2_logo.svg/200px-Bein_sports_2_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Bein_Sports_2_US"
+      }
+    },
+    {
+      "id": "bein_sports_1_us",
+      "name": "beIN Sports 1",
+      "name_bn": "বিইন স্পোর্টস ১",
+      "country": "USA",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Bein_sports_1_logo.svg/200px-Bein_sports_1_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Bein_Sports_1_US"
+      }
+    },
+    {
+      "id": "channel_u_sg",
+      "name": "Channel U",
+      "name_bn": "চ্যানেল ইউ",
+      "country": "Singapore",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Channel_U_Logo.svg/200px-Channel_U_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Channel_U"
+      }
+    },
+    {
+      "id": "channel_8_sg",
+      "name": "Channel 8",
+      "name_bn": "চ্যানেল ৮",
+      "country": "Singapore",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Mediacorp_Channel_8_Logo.svg/200px-Mediacorp_Channel_8_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Channel_8"
+      }
+    },
+    {
+      "id": "mn_plus_in",
+      "name": "MN+",
+      "name_bn": "এমএন+",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/MN%2B_HD_Logo.png/200px-MN%2B_HD_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/mn-plus-hd-in-jw"
+      }
+    },
+    {
+      "id": "mnx_in",
+      "name": "MNX",
+      "name_bn": "এমএনএক্স",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/MNX_HD_Logo.png/200px-MNX_HD_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/mnx-hd-in-jw"
+      }
+    },
+    {
+      "id": "a2z_ph",
+      "name": "A2Z",
+      "name_bn": "এ২জেড",
+      "country": "Philippines",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/A2Z_%28TV_channel%29_logo.svg/200px-A2Z_%28TV_channel%29_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/a2z-ph-jw"
+      }
+    },
+    {
+      "id": "dragon_tv_cn",
+      "name": "Dragon TV",
+      "name_bn": "ড্রাগন টিভি",
+      "country": "China",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Dragon_TV_logo.svg/200px-Dragon_TV_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=DragonTV_ID"
+      }
+    },
+    {
+      "id": "anhui_tv_cn",
+      "name": "Anhui TV",
+      "name_bn": "আনহুই টিভি",
+      "country": "China",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Anhui_Television_logo.svg/200px-Anhui_Television_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=AnhuiTV_ID"
+      }
+    },
+    {
+      "id": "zhejiang_tv_cn",
+      "name": "Zhejiang TV",
+      "name_bn": "ঝেজিয়াং টিভি",
+      "country": "China",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Zhejiang_Television_logo.svg/200px-Zhejiang_Television_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/zhejiang-tv-cn-jw"
+      }
+    },
+    {
+      "id": "tvb_xing_he",
+      "name": "TVB Xing He",
+      "name_bn": "টিভিবি জিং হি",
+      "country": "Hong Kong",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/7/77/TVB_Xing_He_Channel.svg/200px-TVB_Xing_He_Channel.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/tvb-xing-he.php"
+      }
+    },
+    {
+      "id": "jiangsu_tv_cn",
+      "name": "Jiangsu TV",
+      "name_bn": "জিয়াংসু টিভি",
+      "country": "China",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Jiangsu_Television_Logo.svg/200px-Jiangsu_Television_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=JiangsuTV_ID"
+      }
+    },
+    {
+      "id": "hunan_tv_cn",
+      "name": "Hunan TV",
+      "name_bn": "হুনান টিভি",
+      "country": "China",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Hunan_Television_logo.svg/200px-Hunan_Television_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=HunanTV_ID"
+      }
+    },
+    {
+      "id": "oh_my_ceria_my",
+      "name": "Oh My Ceria!",
+      "name_bn": "ওহ মাই চেরিয়া",
+      "country": "Malaysia",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/oh-my-ceria-my-jw"
+      }
+    },
+    {
+      "id": "sony_max_in",
+      "name": "Sony MAX",
+      "name_bn": "সনি ম্যাক্স",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Sony_Max_Logo.svg/200px-Sony_Max_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/sony-max-in-jw"
+      }
+    },
+    {
+      "id": "eurosport_intl",
+      "name": "Eurosport",
+      "name_bn": "ইউরোস্পোর্ট",
+      "country": "International",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Eurosport_logo_%282015%29.svg/200px-Eurosport_logo_%282015%29.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=EUROSPORTHD_ID"
+      }
+    },
+    {
+      "id": "asian_food_network",
+      "name": "Asian Food Network",
+      "name_bn": "এশিয়ান ফুড নেটওয়ার্ক",
+      "country": "International",
+      "category": "lifestyle",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Asian_Food_Network_Logo.svg/200px-Asian_Food_Network_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "https://cdn.stmify.com/embed-free.php?id=Asian_Food_Network_MY"
+      }
+    },
+    {
+      "id": "hgtv",
+      "name": "HGTV",
+      "name_bn": "এইচজিটিভি",
+      "country": "USA",
+      "category": "lifestyle",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/HGTV_2010.svg/200px-HGTV_2010.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=HGTV"
+      }
+    },
+    {
+      "id": "food_network_us",
+      "name": "Food Network",
+      "name_bn": "ফুড নেটওয়ার্ক",
+      "country": "USA",
+      "category": "lifestyle",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Food_Network_logo.svg/200px-Food_Network_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Food_Network"
+      }
+    },
+    {
+      "id": "food_network_my",
+      "name": "Food Network Asia",
+      "name_bn": "ফুড নেটওয়ার্ক এশিয়া",
+      "country": "Malaysia",
+      "category": "lifestyle",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Food_Network_logo.svg/200px-Food_Network_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Food_Network_MY"
+      }
+    },
+    {
+      "id": "food_network_hd",
+      "name": "Food Network HD",
+      "name_bn": "ফুড নেটওয়ার্ক এইচডি",
+      "country": "International",
+      "category": "lifestyle",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Food_Network_logo.svg/200px-Food_Network_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=FOODNETWORK_HD"
+      }
+    },
+    {
+      "id": "tlc",
+      "name": "TLC",
+      "name_bn": "টিএলসি",
+      "country": "USA",
+      "category": "lifestyle",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/TLC_Logo.svg/200px-TLC_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=TLC"
+      }
+    },
+    {
+      "id": "tlc_hindi",
+      "name": "TLC Hindi",
+      "name_bn": "টিএলসি হিন্দি",
+      "country": "India",
+      "category": "lifestyle",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/TLC_Logo.svg/200px-TLC_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=TLC_Hindi"
+      }
+    },
+    {
+      "id": "9x_jalwa",
+      "name": "9X Jalwa",
+      "name_bn": "৯এক্স জলওয়া",
+      "country": "India",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/9X_Jalwa.png/200px-9X_Jalwa.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/9x-jalwa-in-jw"
+      }
+    },
+    {
+      "id": "cna_news",
+      "name": "CNA",
+      "name_bn": "সিএনএ",
+      "country": "Singapore",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/CNA_logo.svg/200px-CNA_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=CNA"
+      }
+    },
+    {
+      "id": "channel_5_sg",
+      "name": "Channel 5",
+      "name_bn": "চ্যানেল ৫",
+      "country": "Singapore",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Channel_5_Logo.svg/200px-Channel_5_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Channel_5"
+      }
+    },
+    {
+      "id": "neox_es",
+      "name": "Neox",
+      "name_bn": "নিওক্স",
+      "country": "Spain",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Neox_Logo.svg/200px-Neox_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=NEOX"
+      }
+    },
+    {
+      "id": "dark_es",
+      "name": "Dark",
+      "name_bn": "ডার্ক",
+      "country": "Spain",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dark_%28canal_de_televisi%C3%B3n%29_logo_2016.png/200px-Dark_%28canal_de_televisi%C3%B3n%29_logo_2016.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=DARK"
+      }
+    },
+    {
+      "id": "be_mad_es",
+      "name": "Be Mad",
+      "name_bn": "বি ম্যাড",
+      "country": "Spain",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Be_Mad_TV_logo.svg/200px-Be_Mad_TV_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=BE_MAD"
+      }
+    },
+    {
+      "id": "historia_es",
+      "name": "Historia",
+      "name_bn": "হিস্টোরিয়া",
+      "country": "Spain",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Canal_Historia_logo_2018.svg/200px-Canal_Historia_logo_2018.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Historia"
+      }
+    },
+    {
+      "id": "history_hd",
+      "name": "History HD",
+      "name_bn": "হিস্ট্রি এইচডি",
+      "country": "International",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/200px-History_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=HISTORY_HD"
+      }
+    },
+    {
+      "id": "channel_suria_sg",
+      "name": "Suria",
+      "name_bn": "সুরিয়া",
+      "country": "Singapore",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Suria_Logo.svg/200px-Suria_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Channel_Suria"
+      }
+    },
+    {
+      "id": "clan_es",
+      "name": "Clan",
+      "name_bn": "ক্ল্যান",
+      "country": "Spain",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Clan_logo.svg/200px-Clan_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/clan-es-jw"
+      }
+    },
+    {
+      "id": "usee_prime_id",
+      "name": "Usee Prime",
+      "name_bn": "ইউসি প্রাইম",
+      "country": "Indonesia",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Usee_Prime"
+      }
+    },
+    {
+      "id": "bollywood_hd_vas",
+      "name": "Bollywood HD",
+      "name_bn": "বলিউড এইচডি",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/bollywood-hd-in-jw"
+      }
+    },
+    {
+      "id": "bollywood_classic_vas",
+      "name": "Bollywood Classic",
+      "name_bn": "বলিউড ক্লাসিক",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/bollywood-classic-hd-in-jw"
+      }
+    },
+    {
+      "id": "arena_sport_6_croatia",
+      "name": "Arena Sport 6 Croatia",
+      "name_bn": "এরিনা স্পোর্ট ৬ ক্রোয়েশিয়া",
+      "country": "Croatia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arena_Sport_6.png/200px-Arena_Sport_6.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/1embed-free.php?id=Arena_Sport_6_Croatia"
+      }
+    },
+    {
+      "id": "arena_sport_6_rs",
+      "name": "Arena Sport 6",
+      "name_bn": "এরিনা স্পোর্ট ৬",
+      "country": "Serbia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arena_Sport_6.png/200px-Arena_Sport_6.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_6"
+      }
+    },
+    {
+      "id": "arena_sport_5_croatia",
+      "name": "Arena Sport 5 Croatia",
+      "name_bn": "এরিনা স্পোর্ট ৫ ক্রোয়েশিয়া",
+      "country": "Croatia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arena_Sport_5_logo.png/200px-Arena_Sport_5_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_5_Croatia"
+      }
+    },
+    {
+      "id": "arena_sport_5_rs",
+      "name": "Arena Sport 5",
+      "name_bn": "এরিনা স্পোর্ট ৫",
+      "country": "Serbia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arena_Sport_5_logo.png/200px-Arena_Sport_5_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_5"
+      }
+    },
+    {
+      "id": "arena_sport_4_croatia",
+      "name": "Arena Sport 4 Croatia",
+      "name_bn": "এরিনা স্পোর্ট ৪ ক্রোয়েশিয়া",
+      "country": "Croatia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Arena_Sport_4_logo.png/200px-Arena_Sport_4_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_4_Croatia"
+      }
+    },
+    {
+      "id": "arena_sport_4_rs",
+      "name": "Arena Sport 4",
+      "name_bn": "এরিনা স্পোর্ট ৪",
+      "country": "Serbia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Arena_Sport_4_logo.png/200px-Arena_Sport_4_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_4"
+      }
+    },
+    {
+      "id": "arena_sport_3_croatia",
+      "name": "Arena Sport 3 Croatia",
+      "name_bn": "এরিনা স্পোর্ট ৩ ক্রোয়েশিয়া",
+      "country": "Croatia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Arena_Sport_3_logo.png/200px-Arena_Sport_3_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_3_Croatia"
+      }
+    },
+    {
+      "id": "arena_sport_3_rs",
+      "name": "Arena Sport 3",
+      "name_bn": "এরিনা স্পোর্ট ৩",
+      "country": "Serbia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Arena_Sport_3_logo.png/200px-Arena_Sport_3_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_3"
+      }
+    },
+    {
+      "id": "arena_sport_2_croatia",
+      "name": "Arena Sport 2 Croatia",
+      "name_bn": "এরিনা স্পোর্ট ২ ক্রোয়েশিয়া",
+      "country": "Croatia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arena_Sport_2_logo.png/200px-Arena_Sport_2_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_2_Croatia"
+      }
+    },
+    {
+      "id": "arena_sport_2_rs",
+      "name": "Arena Sport 2",
+      "name_bn": "এরিনা স্পোর্ট ২",
+      "country": "Serbia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arena_Sport_2_logo.png/200px-Arena_Sport_2_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_2"
+      }
+    },
+    {
+      "id": "24_horas_es",
+      "name": "24 Horas",
+      "name_bn": "২৪ হোরাস",
+      "country": "Spain",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Canal_24_Horas_logo.svg/200px-Canal_24_Horas_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/24h-es-jw"
+      }
+    },
+    {
+      "id": "spacetoon",
+      "name": "Spacetoon",
+      "name_bn": "স্পেসটুন",
+      "country": "International",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Spacetoon_logo_2017.svg/200px-Spacetoon_logo_2017.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/spacetoon-ae-jw"
+      }
+    },
+    {
+      "id": "rotana_aflam_plus",
+      "name": "Rotana Aflam+",
+      "name_bn": "রোটানা আফলাম+",
+      "country": "Saudi Arabia",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Rotana_Aflam_logo.svg/200px-Rotana_Aflam_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/rotana-aflamplus-ae-jw"
+      }
+    },
+    {
+      "id": "rotana_plus",
+      "name": "Rotana+",
+      "name_bn": "রোটানা+",
+      "country": "Saudi Arabia",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Rotana_Plus_logo.svg/200px-Rotana_Plus_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=ROTANA_Plus"
+      }
+    },
+    {
+      "id": "boing_es",
+      "name": "Boing",
+      "name_bn": "বোয়িং",
+      "country": "Spain",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Boing_Espa%C3%B1a_logo_2016.svg/200px-Boing_Espa%C3%B1a_logo_2016.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Boing"
+      }
+    },
+    {
+      "id": "ad_sports_2",
+      "name": "AD Sports 2",
+      "name_bn": "এডি স্পোর্টস ২",
+      "country": "UAE",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Abu_Dhabi_Sports_2_logo.svg/200px-Abu_Dhabi_Sports_2_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/abudhabi-sports-2-ae-jw"
+      }
+    },
+    {
+      "id": "ad_sports_1",
+      "name": "AD Sports 1",
+      "name_bn": "এডি স্পোর্টস ১",
+      "country": "UAE",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Abu_Dhabi_Sports_1_logo.svg/200px-Abu_Dhabi_Sports_1_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/abudhabi-sports-1-ae-jw"
+      }
+    },
+    {
+      "id": "stc_tv_drama",
+      "name": "STC TV Drama",
+      "name_bn": "এসটিসি টিভি ড্রামা",
+      "country": "Saudi Arabia",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=STC_TV_DRAMA"
+      }
+    },
+    {
+      "id": "9xm",
+      "name": "9XM",
+      "name_bn": "৯এক্সএম",
+      "country": "India",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/9XM_Logo.png/200px-9XM_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/9xm-in-jw"
+      }
+    },
+    {
+      "id": "ion_plus",
+      "name": "ION Plus",
+      "name_bn": "আয়ন প্লাস",
+      "country": "USA",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ion_Plus_2019_logo.svg/200px-Ion_Plus_2019_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/ion-plus-us-jw"
+      }
+    },
+    {
+      "id": "cine_sony_it",
+      "name": "Cine Sony",
+      "name_bn": "সিনে সনি",
+      "country": "Italy",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cine_Sony_logo.svg/200px-Cine_Sony_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/cine-sony-it-jw"
+      }
+    },
+    {
+      "id": "citra_dangdut",
+      "name": "Citra Dangdut",
+      "name_bn": "চিত্র ডাংদুত",
+      "country": "Indonesia",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=CitraDangdutHD_ID"
+      }
+    },
+    {
+      "id": "citra_drama",
+      "name": "Citra Drama",
+      "name_bn": "চিত্র ড্রামা",
+      "country": "Indonesia",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=CitraDramaHD_ID"
+      }
+    },
+    {
+      "id": "drama_hotpot_my",
+      "name": "Drama Hotpot",
+      "name_bn": "ড্রামা হটপট",
+      "country": "Malaysia",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/drama-hotpot-my-jw"
+      }
+    },
+    {
+      "id": "fight_sports",
+      "name": "Fight Sports",
+      "name_bn": "ফাইট স্পোর্টস",
+      "country": "International",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Fight_Sports_Logo.png/200px-Fight_Sports_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "https://cdn.stmify.com/embed-free.php?id=Fight_Sports"
+      }
+    },
+    {
+      "id": "drama_hebat_my",
+      "name": "Drama Hebat",
+      "name_bn": "ড্রামা হেবাত",
+      "country": "Malaysia",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/drama-hebat-my-jw"
+      }
+    },
+    {
+      "id": "arena_sport_1_croatia",
+      "name": "Arena Sport 1 Croatia",
+      "name_bn": "এরিনা স্পোর্ট ১ ক্রোয়েশিয়া",
+      "country": "Croatia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Arena_Sport_1_logo.png/200px-Arena_Sport_1_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_1_Croatia"
+      }
+    },
+    {
+      "id": "somos_es",
+      "name": "Somos",
+      "name_bn": "সোমোস",
+      "country": "Spain",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Somos_Logo.svg/200px-Somos_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Somos"
+      }
+    },
+    {
+      "id": "la_1_es",
+      "name": "La 1",
+      "name_bn": "লা ১",
+      "country": "Spain",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/La_1_logo.svg/200px-La_1_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/la-1-es-jw"
+      }
+    },
+    {
+      "id": "sony_pix_in",
+      "name": "Sony PIX",
+      "name_bn": "সনি পিক্স",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Sony_Pix_Logo.svg/200px-Sony_Pix_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/sony-pix-in-jw"
+      }
+    },
+    {
+      "id": "kix_tv",
+      "name": "KIX",
+      "name_bn": "কিক্স",
+      "country": "International",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Kix_Action_Channel_Logo.png/200px-Kix_Action_Channel_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/kix-cn-jw"
+      }
+    },
+    {
+      "id": "odisea_es",
+      "name": "Odisea",
+      "name_bn": "ওডিসিয়া",
+      "country": "Spain",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Odisea_logo_2016.svg/200px-Odisea_logo_2016.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Odisea"
+      }
+    },
+    {
+      "id": "lawak_sentral_my",
+      "name": "Lawak Sentral",
+      "name_bn": "লাওয়াক সেন্ট্রাল",
+      "country": "Malaysia",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/lawak-sentral-my-jw"
+      }
+    },
+    {
+      "id": "tvn_movies_pinoy",
+      "name": "tvN Movies Pinoy",
+      "name_bn": "টিভিএন মুভিজ পিনয়",
+      "country": "Philippines",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/TvN_Movies_logo.svg/200px-TvN_Movies_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/tvn-movies-pinoy-ph-jw"
+      }
+    },
+    {
+      "id": "tvn_asia",
+      "name": "tvN Asia",
+      "name_bn": "টিভিএন এশিয়া",
+      "country": "International",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/TvN_Asia_Logo.svg/200px-TvN_Asia_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=tvN_Premium_HD"
+      }
+    },
+    {
+      "id": "fox_sports_3_mx",
+      "name": "Fox Sports 3",
+      "name_bn": "ফক্স স্পোর্টস ৩",
+      "country": "Mexico",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Fox_Sports_3.svg/200px-Fox_Sports_3.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=FOX_Sports_3"
+      }
+    },
+    {
+      "id": "fox_sports_2_us",
+      "name": "Fox Sports 2",
+      "name_bn": "ফক্স স্পোর্টস ২",
+      "country": "USA",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Fox_Sports_2_2013.svg/200px-Fox_Sports_2_2013.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=FOX_Sports_2"
+      }
+    },
+    {
+      "id": "fox_sports_1_us",
+      "name": "Fox Sports 1",
+      "name_bn": "ফক্স স্পোর্টস ১",
+      "country": "USA",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fox_Sports_1_2013.svg/200px-Fox_Sports_1_2013.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=FOX_Sports"
+      }
+    },
+    {
+      "id": "swarnavahini_lk",
+      "name": "Swarnavahini",
+      "name_bn": "স্বর্ণবিনী",
+      "country": "Sri Lanka",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Swarnavahini_logo.jpg/200px-Swarnavahini_logo.jpg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/swarnavahini-lk-jw"
+      }
+    },
+    {
+      "id": "viva_cinema_ph",
+      "name": "Viva Cinema",
+      "name_bn": "ভিভা সিনেমা",
+      "country": "Philippines",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Viva_Cinema_logo.png/200px-Viva_Cinema_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/viva-cinema-ph-jw"
+      }
+    },
+    {
+      "id": "ten_sports_pk",
+      "name": "Ten Sports",
+      "name_bn": "টেন স্পোর্টস",
+      "country": "Pakistan",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Ten_Sports_Logo.png/200px-Ten_Sports_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=TEN"
+      }
+    },
+    {
+      "id": "star_action",
+      "name": "Star Action",
+      "name_bn": "স্টার অ্যাকশন",
+      "country": "International",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=STAR_ACTION"
+      }
+    },
+    {
+      "id": "dazn_1_es",
+      "name": "DAZN 1",
+      "name_bn": "ডিএজেডএন ১",
+      "country": "Spain",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/DAZN_1_Logo.svg/200px-DAZN_1_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/dazn-1-es-jw"
+      }
+    },
+    {
+      "id": "premiere_br",
+      "name": "Premiere",
+      "name_bn": "প্রিমিয়ার",
+      "country": "Brazil",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Premiere_logo_2019.svg/200px-Premiere_logo_2019.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=PREMIERE"
+      }
+    },
+    {
+      "id": "dazn_laliga_es",
+      "name": "DAZN LaLiga",
+      "name_bn": "ডিএজেডএন লা লিগা",
+      "country": "Spain",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/DAZN_LaLiga_Logo.svg/200px-DAZN_LaLiga_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=DAZN_LL"
+      }
+    },
+    {
+      "id": "fox_sports_premium_mx",
+      "name": "Fox Sports Premium",
+      "name_bn": "ফক্স স্পোর্টস প্রিমিয়াম",
+      "country": "Mexico",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Fox_Sports_Premium_2022.svg/200px-Fox_Sports_Premium_2022.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Fox_Sports_Premium"
+      }
+    },
+    {
+      "id": "dazn_f1_es",
+      "name": "DAZN F1",
+      "name_bn": "ডিএজেডএন এফ১",
+      "country": "Spain",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/DAZN_F1_Logo.svg/200px-DAZN_F1_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=DAZN_F1"
+      }
+    },
+    {
+      "id": "paramount_network_us",
+      "name": "Paramount Network",
+      "name_bn": "প্যারামাউন্ট নেটওয়ার্ক",
+      "country": "USA",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Paramount_Network.svg/200px-Paramount_Network.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Paramount_Network"
+      }
+    },
+    {
+      "id": "tcm_us",
+      "name": "TCM",
+      "name_bn": "টিসিএম",
+      "country": "USA",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Turner_Classic_Movies_logo.svg/200px-Turner_Classic_Movies_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=TCM"
+      }
+    },
+    {
+      "id": "film_mantap_my",
+      "name": "Film Mantap",
+      "name_bn": "ফিল্ম মানতাপ",
+      "country": "Malaysia",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/film-mantap-my-jw"
+      }
+    },
+    {
+      "id": "arena_fight_rs",
+      "name": "Arena Fight",
+      "name_bn": "এরিনা ফাইট",
+      "country": "Serbia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Arena_Fight_logo.png/200px-Arena_Fight_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/1embed-free.php?id=Arena_Fight_Serbia"
+      }
+    },
+    {
+      "id": "arena_sport_fight",
+      "name": "Arena Sport Fight",
+      "name_bn": "এরিনা স্পোর্ট ফাইট",
+      "country": "Serbia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Arena_Fight_logo.png/200px-Arena_Fight_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_Sport_Fight"
+      }
+    },
+    {
+      "id": "travel_taste_my",
+      "name": "Travel & Taste",
+      "name_bn": "ট্র্যাভেল অ্যান্ড টেস্ট",
+      "country": "Malaysia",
+      "category": "lifestyle",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/travel-taste-my-jw"
+      }
+    },
+    {
+      "id": "nbc4_la",
+      "name": "NBC 4 Los Angeles",
+      "name_bn": "এনবিসি ৪ লস এঞ্জেলেস",
+      "country": "USA",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/KNBC_Logo_2024.svg/200px-KNBC_Logo_2024.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=NBC4_Los_Angeles"
+      }
+    },
+    {
+      "id": "nbc_la_news",
+      "name": "NBC LA News",
+      "name_bn": "এনবিসি এলএ নিউজ",
+      "country": "USA",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/KNBC_Logo_2024.svg/200px-KNBC_Logo_2024.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=NBC_LOS_ANGELES_NEWS"
+      }
+    },
+    {
+      "id": "unifi_sports_my",
+      "name": "Unifi Sports",
+      "name_bn": "ইউনিফাই স্পোর্টস",
+      "country": "Malaysia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Unifi_TV_logo.png/200px-Unifi_TV_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/unifi-sports-my-jw"
+      }
+    },
+    {
+      "id": "mbc_max",
+      "name": "MBC Max",
+      "name_bn": "এমবিসি ম্যাক্স",
+      "country": "UAE",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MBC_Max_Logo.svg/200px-MBC_Max_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/mbc-max-ae-jw"
+      }
+    },
+    {
+      "id": "tap_tv_ph",
+      "name": "Tap TV",
+      "name_bn": "ট্যাপ টিভি",
+      "country": "Philippines",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/TapTV_logo.png/200px-TapTV_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/tap-tv-ph-jw"
+      }
+    },
+    {
+      "id": "arena_premium_3_rs",
+      "name": "Arena Premium 3",
+      "name_bn": "এরিনা প্রিমিয়াম ৩",
+      "country": "Serbia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arena_Sport_Premium_3.png/200px-Arena_Sport_Premium_3.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Arena_3_Premium"
+      }
+    },
+    {
+      "id": "nfl_network",
+      "name": "NFL Network",
+      "name_bn": "এনএফএল নেটওয়ার্ক",
+      "country": "USA",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/NFL_Network_logo.svg/200px-NFL_Network_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=NFL"
+      }
+    },
+    {
+      "id": "nbc_sports",
+      "name": "NBC Sports",
+      "name_bn": "এনবিসি স্পোর্টস",
+      "country": "USA",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/NBC_Sports_logo_2012.svg/200px-NBC_Sports_logo_2012.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=NBC_Sports"
+      }
+    },
+    {
+      "id": "tap_movies_ph",
+      "name": "Tap Movies",
+      "name_bn": "ট্যাপ মুভিজ",
+      "country": "Philippines",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Tap_Movies_logo.png/200px-Tap_Movies_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/tap-movies-ph-jw"
+      }
+    },
+    {
+      "id": "tap_action_flix_ph",
+      "name": "Tap Action Flix",
+      "name_bn": "ট্যাপ অ্যাকশন ফ্লিক্স",
+      "country": "Philippines",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Tap_Action_Flix_logo.png/200px-Tap_Action_Flix_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/tap-action-flix-ph-jw"
+      }
+    },
+    {
+      "id": "calle_13_es",
+      "name": "Calle 13",
+      "name_bn": "ক্যালে ১৩",
+      "country": "Spain",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Calle_13_logo_2018.svg/200px-Calle_13_logo_2018.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/calle-13-es-jw"
+      }
+    },
+    {
+      "id": "bet_us",
+      "name": "BET",
+      "name_bn": "বিইটি",
+      "country": "USA",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/BET_logo.svg/200px-BET_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/bet-east-us-jw"
+      }
+    },
+    {
+      "id": "sundance_tv_us",
+      "name": "Sundance TV",
+      "name_bn": "সানড্যান্স টিভি",
+      "country": "USA",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/SundanceTV.svg/200px-SundanceTV.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/sundance-tv-us-jw"
+      }
+    },
+    {
+      "id": "syfy_us",
+      "name": "Syfy",
+      "name_bn": "সাইফাই",
+      "country": "USA",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Syfy_logo_2017.svg/200px-Syfy_logo_2017.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/syfy-us-jw"
+      }
+    },
+    {
+      "id": "xtrm_es",
+      "name": "XTRM",
+      "name_bn": "এক্সটিআরএম",
+      "country": "Spain",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/XTRM_Logo.svg/200px-XTRM_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=XTRM_HD"
+      }
+    },
+    {
+      "id": "one_tv_asia",
+      "name": "ONE TV Asia",
+      "name_bn": "ওয়ান টিভি এশিয়া",
+      "country": "International",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/ONE_TV_Asia_Logo.png/200px-ONE_TV_Asia_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=ONEHD_ID"
+      }
+    },
+    {
+      "id": "one_my",
+      "name": "ONE Malaysia",
+      "name_bn": "ওয়ান মালয়েশিয়া",
+      "country": "Malaysia",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/ONE_TV_Asia_Logo.png/200px-ONE_TV_Asia_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=ONE_MY"
+      }
+    },
+    {
+      "id": "powerkids_in",
+      "name": "Power Kids",
+      "name_bn": "পাওয়ার কিডস",
+      "country": "India",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/powerkids-in-jw"
+      }
+    },
+    {
+      "id": "ted_channel",
+      "name": "TED",
+      "name_bn": "টেড",
+      "country": "International",
+      "category": "education",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/TED_logo.svg/200px-TED_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/ted.php"
+      }
+    },
+    {
+      "id": "fox_channel_generic",
+      "name": "Fox",
+      "name_bn": "ফক্স",
+      "country": "International",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FOX_logo_2019.svg/200px-FOX_logo_2019.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Fox"
+      }
+    },
+    {
+      "id": "hbo_2_us",
+      "name": "HBO 2",
+      "name_bn": "এইচবিও ২",
+      "country": "USA",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/200px-HBO_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/hbo-2-us-jw"
+      }
+    },
+    {
+      "id": "ssc_5",
+      "name": "SSC 5",
+      "name_bn": "এসএসসি ৫",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_5"
+      }
+    },
+    {
+      "id": "ssc_5_backup",
+      "name": "SSC 5 (Backup)",
+      "name_bn": "এসএসসি ৫ (ব্যাকআপ)",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_5_2"
+      }
+    },
+    {
+      "id": "ssc_extra_2",
+      "name": "SSC Extra 2",
+      "name_bn": "এসএসসি এক্সট্রা ২",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_EXTRA_2"
+      }
+    },
+    {
+      "id": "ssc_extra_2_backup",
+      "name": "SSC Extra 2 (Backup)",
+      "name_bn": "এসএসসি এক্সট্রা ২ (ব্যাকআপ)",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_EXTRA_2_2"
+      }
+    },
+    {
+      "id": "ssc_4",
+      "name": "SSC 4",
+      "name_bn": "এসএসসি ৪",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_4"
+      }
+    },
+    {
+      "id": "ssc_4_backup",
+      "name": "SSC 4 (Backup)",
+      "name_bn": "এসএসসি ৪ (ব্যাকআপ)",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_4_2"
+      }
+    },
+    {
+      "id": "ssc_3",
+      "name": "SSC 3",
+      "name_bn": "এসএসসি ৩",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_3"
+      }
+    },
+    {
+      "id": "ssc_3_backup",
+      "name": "SSC 3 (Backup)",
+      "name_bn": "এসএসসি ৩ (ব্যাকআপ)",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_3_2"
+      }
+    },
+    {
+      "id": "ssc_extra_1",
+      "name": "SSC Extra 1",
+      "name_bn": "এসএসসি এক্সট্রা ১",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_EXTRA_1"
+      }
+    },
+    {
+      "id": "ssc_extra_1_backup",
+      "name": "SSC Extra 1 (Backup)",
+      "name_bn": "এসএসসি এক্সট্রা ১ (ব্যাকআপ)",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_EXTRA_1_2"
+      }
+    },
+    {
+      "id": "ssc_2",
+      "name": "SSC 2",
+      "name_bn": "এসএসসি ২",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_2"
+      }
+    },
+    {
+      "id": "ssc_2_backup",
+      "name": "SSC 2 (Backup)",
+      "name_bn": "এসএসসি ২ (ব্যাকআপ)",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_2_2"
+      }
+    },
+    {
+      "id": "ssc_1",
+      "name": "SSC 1",
+      "name_bn": "এসএসসি ১",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_1"
+      }
+    },
+    {
+      "id": "ssc_1_backup",
+      "name": "SSC 1 (Backup)",
+      "name_bn": "এসএসসি ১ (ব্যাকআপ)",
+      "country": "Saudi Arabia",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SSC_Logo_2021.png/200px-SSC_Logo_2021.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SSC_1_2"
+      }
+    },
+    {
+      "id": "usa_network",
+      "name": "USA Network",
+      "name_bn": "ইউএসএ নেটওয়ার্ক",
+      "country": "USA",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/USA_Network_logo_2016.svg/200px-USA_Network_logo_2016.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/usa-network-us-jw"
+      }
+    },
+    {
+      "id": "rai_1_it",
+      "name": "Rai 1",
+      "name_bn": "রাই ১",
+      "country": "Italy",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rai_1_logo.svg/200px-Rai_1_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/rai-1-uno-hd-it-jw"
+      }
+    },
+    {
+      "id": "rai_3_it",
+      "name": "Rai 3",
+      "name_bn": "রাই ৩",
+      "country": "Italy",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Rai_3_logo.svg/200px-Rai_3_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/rai-3-tre-hd-it-jw"
+      }
+    },
+    {
+      "id": "q_gamex_in",
+      "name": "Q GameX",
+      "name_bn": "কিউ গেমএক্স",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/q-gamex-in-jw"
+      }
+    },
+    {
+      "id": "q_toonz_in",
+      "name": "Q Toonz",
+      "name_bn": "কিউ টুনজ",
+      "country": "India",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/q-toonz-in-jw"
+      }
+    },
+    {
+      "id": "supersport_psl_za",
+      "name": "SuperSport PSL",
+      "name_bn": "সুপারস্পোর্ট পিএসএল",
+      "country": "South Africa",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/SuperSport_logo.svg/200px-SuperSport_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/supersport-psl-za-jw"
+      }
+    },
+    {
+      "id": "channel_eye_lk",
+      "name": "Channel Eye",
+      "name_bn": "চ্যানেল আই",
+      "country": "Sri Lanka",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Channel_Eye_Logo.jpg/200px-Channel_Eye_Logo.jpg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/channel-eye-lk-jw"
+      }
+    },
+    {
+      "id": "rupavahini_lk",
+      "name": "Rupavahini",
+      "name_bn": "রূপবিনী",
+      "country": "Sri Lanka",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Rupavahini_logo.jpg/200px-Rupavahini_logo.jpg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/rupavahini-lk-jw"
+      }
+    },
+    {
+      "id": "charana_tv_lk",
+      "name": "Charana TV",
+      "name_bn": "চরণ টিভি",
+      "country": "Sri Lanka",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/charana-lk-jw"
+      }
+    },
+    {
+      "id": "shakthi_tv_lk",
+      "name": "Shakthi TV",
+      "name_bn": "শক্তি টিভি",
+      "country": "Sri Lanka",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Shakthi_TV_logo.jpg/200px-Shakthi_TV_logo.jpg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/shakthi-tv-lk-jw"
+      }
+    },
+    {
+      "id": "urdu_1_pk",
+      "name": "Urdu 1",
+      "name_bn": "উর্দু ১",
+      "country": "Pakistan",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Urdu_1_logo.png/200px-Urdu_1_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/urdu-1-pk-jw"
+      }
+    },
+    {
+      "id": "minimax_pk",
+      "name": "Minimax",
+      "name_bn": "মিনিম্যাক্স",
+      "country": "Pakistan",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Minimax_logo_2013.svg/200px-Minimax_logo_2013.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/minimax-pk-jw"
+      }
+    },
+    {
+      "id": "star_bharat_in",
+      "name": "Star Bharat",
+      "name_bn": "স্টার ভারত",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Star_Bharat_Logo.svg/200px-Star_Bharat_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/star-bharat-in-jw"
+      }
+    },
+    {
+      "id": "nick_music_us",
+      "name": "NickMusic",
+      "name_bn": "নিক মিউজিক",
+      "country": "USA",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/NickMusic_logo.svg/200px-NickMusic_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/nick-music-us-jw"
+      }
+    },
+    {
+      "id": "discovery_family_us",
+      "name": "Discovery Family",
+      "name_bn": "ডিসকভারি ফ্যামিলি",
+      "country": "USA",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Discovery_Family_Channel_Logo.svg/200px-Discovery_Family_Channel_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/discovery-family-channel-us-jw"
+      }
+    },
+    {
+      "id": "hbo_comedy_us",
+      "name": "HBO Comedy",
+      "name_bn": "এইচবিও কমেডি",
+      "country": "USA",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/200px-HBO_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/hbo-comedy-us-jw"
+      }
+    },
+    {
+      "id": "vh1_us",
+      "name": "VH1",
+      "name_bn": "ভিএইচ১",
+      "country": "USA",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VH1_Logo_2013.svg/200px-VH1_Logo_2013.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=VH1_US"
+      }
+    },
+    {
+      "id": "star_movies_in",
+      "name": "Star Movies",
+      "name_bn": "স্টার মুভিজ",
+      "country": "India",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Star_Movies_logo.svg/200px-Star_Movies_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/star-movies-hd-in-jw"
+      }
+    },
+    {
+      "id": "hbo_plus_mx",
+      "name": "HBO+",
+      "name_bn": "এইচবিও+",
+      "country": "Mexico",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/200px-HBO_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/hbo-plus-mx-jw"
+      }
+    },
+    {
+      "id": "star_life_hr",
+      "name": "Star Life",
+      "name_bn": "স্টার লাইফ",
+      "country": "Croatia",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Star_Life_logo.svg/200px-Star_Life_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/1embed-free.php?id=Star_Life_Croatia"
+      }
+    },
+    {
+      "id": "supersport_laliga_za",
+      "name": "SuperSport LaLiga",
+      "name_bn": "সুপারস্পোর্ট লা লিগা",
+      "country": "South Africa",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/SuperSport_logo.svg/200px-SuperSport_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/supersport-laliga-za-jw"
+      }
+    },
+    {
+      "id": "supersport_premier_league_za",
+      "name": "SuperSport Premier League",
+      "name_bn": "সুপারস্পোর্ট প্রিমিয়ার লিগ",
+      "country": "South Africa",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/SuperSport_logo.svg/200px-SuperSport_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/supersport-premier-league-za-jw"
+      }
+    },
+    {
+      "id": "cbbc_uk",
+      "name": "CBBC",
+      "name_bn": "সিবিবিসি",
+      "country": "UK",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/CBBC_logo_2016.svg/200px-CBBC_logo_2016.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=BBC_3_Cbbc_EN"
+      }
+    },
+    {
+      "id": "jalwa_pk",
+      "name": "Jalwa",
+      "name_bn": "জলওয়া",
+      "country": "Pakistan",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/jalwa-pk-jw"
+      }
+    },
+    {
+      "id": "espn_2",
+      "name": "ESPN 2",
+      "name_bn": "ইএসপিএন ২",
+      "country": "USA",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN_2_logo.svg/200px-ESPN_2_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=ESPN_2"
+      }
+    },
+    {
+      "id": "tv1_pk",
+      "name": "TVOne Global",
+      "name_bn": "টিভিওয়ান গ্লোবাল",
+      "country": "Pakistan",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/TVOne_Global_Logo.png/200px-TVOne_Global_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/tv1-pk-jw"
+      }
+    },
+    {
+      "id": "8xm_pk",
+      "name": "8XM",
+      "name_bn": "৮এক্সএম",
+      "country": "Pakistan",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/8XM_Logo.png/200px-8XM_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/8xm-pk-jw"
+      }
+    },
+    {
+      "id": "dhe_cine",
+      "name": "DHE",
+      "name_bn": "ডিএইচই",
+      "country": "International",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DHE_logo.png/200px-DHE_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=D_THEATER_EN_VIVO"
+      }
+    },
+    {
+      "id": "hallmark_drama_us",
+      "name": "Hallmark Drama",
+      "name_bn": "হলমার্ক ড্রামা",
+      "country": "USA",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Hallmark_Drama_logo.svg/200px-Hallmark_Drama_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=HALLMARK_DRAMA"
+      }
+    },
+    {
+      "id": "hallmark_channel_us",
+      "name": "Hallmark Channel",
+      "name_bn": "হলমার্ক চ্যানেল",
+      "country": "USA",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Hallmark_Channel_logo_2017.svg/200px-Hallmark_Channel_logo_2017.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=HALLMARK_CHANNEL"
+      }
+    },
+    {
+      "id": "mtv_90s",
+      "name": "MTV 90s",
+      "name_bn": "এমটিভি ৯০'স",
+      "country": "International",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/MTV_90s_Logo.svg/200px-MTV_90s_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=MTV90sHD_ID"
+      }
+    },
+    {
+      "id": "mtv_90s_eu",
+      "name": "MTV 90s Europe",
+      "name_bn": "এমটিভি ৯০'স ইউরোপ",
+      "country": "Europe",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/MTV_90s_Logo.svg/200px-MTV_90s_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Mtv_90s_SK"
+      }
+    },
+    {
+      "id": "epic_tv_in",
+      "name": "EPIC TV",
+      "name_bn": "এপিক টিভি",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Epic_Channel_Logo.png/200px-Epic_Channel_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/epictv-in-jw"
+      }
+    },
+    {
+      "id": "joo_music_pk",
+      "name": "Joo Music",
+      "name_bn": "জু মিউজিক",
+      "country": "Pakistan",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/joo-music-pk-jw"
+      }
+    },
+    {
+      "id": "sony_wah_in",
+      "name": "Sony Wah",
+      "name_bn": "সনি ওয়াহ",
+      "country": "India",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sony_Wah_Logo.png/200px-Sony_Wah_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=SONY_WAH"
+      }
+    },
+    {
+      "id": "sony_sab_in",
+      "name": "Sony SAB",
+      "name_bn": "সনি সাব",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Sony_SAB_Logo.svg/200px-Sony_SAB_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/sony-sab-in-jw"
+      }
+    },
+    {
+      "id": "sony_tv_in",
+      "name": "Sony Entertainment Television",
+      "name_bn": "সনি এন্টারটেইনমেন্ট টেলিভিশন",
+      "country": "India",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Sony_Entertainment_Television_logo.svg/200px-Sony_Entertainment_Television_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/sony-entertainment-television-hd-in-jw"
+      }
+    },
+    {
+      "id": "sony_max_2_in",
+      "name": "Sony MAX 2",
+      "name_bn": "সনি ম্যাক্স ২",
+      "country": "India",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Sony_Max_2_Logo.svg/200px-Sony_Max_2_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/sony-max-2-in-jw"
+      }
+    },
+    {
+      "id": "sony_yay_in",
+      "name": "Sony YAY!",
+      "name_bn": "সনি ইয়ে!",
+      "country": "India",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Sony_YAY%21_Logo.svg/200px-Sony_YAY%21_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/sony-yay-in-jw"
+      }
+    },
+    {
+      "id": "vevo_2k",
+      "name": "Vevo 2000s",
+      "name_bn": "ভেভো ২০০০'স",
+      "country": "International",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Vevo_logo.svg/200px-Vevo_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Vevo_2K"
+      }
+    },
+    {
+      "id": "bbc_two_uk",
+      "name": "BBC Two",
+      "name_bn": "বিবিসি টু",
+      "country": "UK",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BBC_Two_logo_2021.svg/200px-BBC_Two_logo_2021.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/bbc-two-uk-jw"
+      }
+    },
+    {
+      "id": "axn_movies_es",
+      "name": "AXN Movies",
+      "name_bn": "এএক্সএন মুভিজ",
+      "country": "Spain",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/AXN_Movies_Logo.png/200px-AXN_Movies_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/axn-movies-es-jw"
+      }
+    },
+    {
+      "id": "bbc_earth_uk",
+      "name": "BBC Earth",
+      "name_bn": "বিবিসি আর্থ",
+      "country": "UK",
+      "category": "documentary",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/BBC_Earth_logo_2021.svg/200px-BBC_Earth_logo_2021.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/bbc-earth-uk-jw"
+      }
+    },
+    {
+      "id": "now_rock_uk",
+      "name": "NOW Rock",
+      "name_bn": "নাউ রক",
+      "country": "UK",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Now_Rock_TV_Logo.png/200px-Now_Rock_TV_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/now-rock-uk-jw"
+      }
+    },
+    {
+      "id": "eurosport_2_fr",
+      "name": "Eurosport 2",
+      "name_bn": "ইউরোস্পোর্ট ২",
+      "country": "France",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Eurosport_logo_%282015%29.svg/200px-Eurosport_logo_%282015%29.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/eurosports-2-fr-jw"
+      }
+    },
+    {
+      "id": "dreamworks_hd",
+      "name": "DreamWorks Channel",
+      "name_bn": "ড্রিমওয়ার্কস চ্যানেল",
+      "country": "International",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/DreamWorks_Channel_Logo.svg/200px-DreamWorks_Channel_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=DREAMWORKS_HD"
+      }
+    },
+    {
+      "id": "dreamworks_tagalog",
+      "name": "DreamWorks Tagalog",
+      "name_bn": "ড্রিমওয়ার্কস তাগালগ",
+      "country": "Philippines",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/DreamWorks_Channel_Logo.svg/200px-DreamWorks_Channel_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=DREAMWORKS_TAGALOG"
+      }
+    },
+    {
+      "id": "fashiontv_fr",
+      "name": "Fashion TV",
+      "name_bn": "ফ্যাশন টিভি",
+      "country": "France",
+      "category": "lifestyle",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Fashion_TV_logo.png/200px-Fashion_TV_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/fashiontv-fr-jw"
+      }
+    },
+    {
+      "id": "rock_entertainment",
+      "name": "Rock Entertainment",
+      "name_bn": "রক এন্টারটেইনমেন্ট",
+      "country": "International",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ROCK_Entertainment_Logo.png/200px-ROCK_Entertainment_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Rock_Entertainment"
+      }
+    },
+    {
+      "id": "rock_entertainment",
+      "name": "Rock Entertainment",
+      "name_bn": "রক এন্টারটেইনমেন্ট",
+      "country": "Singapore",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rock_Entertainment.png/200px-Rock_Entertainment.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=ROCK_Entertainment"
+      }
+    },
+    {
+      "id": "rock_extreme",
+      "name": "Rock Extreme",
+      "name_bn": "রক এক্সট্রিম",
+      "country": "Singapore",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Rock_Extreme.png/200px-Rock_Extreme.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Rock_Extreme"
+      }
+    },
+    {
+      "id": "rock_action_id",
+      "name": "Rock Action",
+      "name_bn": "রক অ্যাকশন",
+      "country": "Indonesia",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Rock_Action.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=ROCK_ACTION_ID"
+      }
+    },
+    {
+      "id": "sky_sports_arena_uk",
+      "name": "Sky Sports Arena",
+      "name_bn": "স্কাই স্পোর্টস এরিনা",
+      "country": "UK",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Sky_Sports_Arena_logo.svg/200px-Sky_Sports_Arena_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/sky-spores-arena-uk-jw"
+      }
+    },
+    {
+      "id": "msnbc_us",
+      "name": "MSNBC",
+      "name_bn": "এমএসএনবিসি",
+      "country": "USA",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/MSNBC_logo.svg/200px-MSNBC_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/msnbc-us-jw"
+      }
+    },
+    {
+      "id": "ndtv_india",
+      "name": "NDTV India",
+      "name_bn": "এনডিটিভি ইন্ডিয়া",
+      "country": "India",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/NDTV_India.png/200px-NDTV_India.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/ndtvindia-in-jw"
+      }
+    },
+    {
+      "id": "cinemax_east_us",
+      "name": "Cinemax East",
+      "name_bn": "সিনেমেক্স ইস্ট",
+      "country": "USA",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Cinemax_2011.svg/200px-Cinemax_2011.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/cinemax-east-us-jw"
+      }
+    },
+    {
+      "id": "hbo_family_us",
+      "name": "HBO Family",
+      "name_bn": "এইচবিও ফ্যামিলি",
+      "country": "USA",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/HBO_Family_2011_logo.svg/200px-HBO_Family_2011_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/hbo-family-us-jw"
+      }
+    },
+    {
+      "id": "hbo_signature_id",
+      "name": "HBO Signature",
+      "name_bn": "এইচবিও সিগনেচার",
+      "country": "Indonesia",
+      "category": "movies",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/HBO_Signature_logo.svg/200px-HBO_Signature_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/hbo-signature-id-jw"
+      }
+    },
+    {
+      "id": "sky_sports_premier_league_uk",
+      "name": "Sky Sports Premier League",
+      "name_bn": "স্কাই স্পোর্টস প্রিমিয়ার লীগ",
+      "country": "UK",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Sky_Sports_Premier_League_logo.svg/200px-Sky_Sports_Premier_League_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/sky-spores-premier-league-uk-jw"
+      }
+    },
+    {
+      "id": "sky_sports_news_uk",
+      "name": "Sky Sports News",
+      "name_bn": "স্কাই স্পোর্টস নিউজ",
+      "country": "UK",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Sky_Sports_News_logo.svg/200px-Sky_Sports_News_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/sky-spores-news-uk-jw"
+      }
+    },
+    {
+      "id": "euronews_fr",
+      "name": "Euronews",
+      "name_bn": "ইউরোনিউজ",
+      "country": "France",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Euronews_logo_2016.svg/200px-Euronews_logo_2016.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/euronews-fr-jw"
+      }
+    },
+    {
+      "id": "al_arabiya_ae",
+      "name": "Al Arabiya",
+      "name_bn": "আল আরাবিয়া",
+      "country": "UAE",
+      "category": "news",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Al_Arabiya_Logo.svg/200px-Al_Arabiya_Logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/al-arabiya-ae-jw"
+      }
+    },
+    {
+      "id": "now_80s_uk",
+      "name": "Now 80s",
+      "name_bn": "নাউ ৮০এস",
+      "country": "UK",
+      "category": "music",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/2/23/Now_80s_logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/now-80s-uk-jw"
+      }
+    },
+    {
+      "id": "discover_pakistan",
+      "name": "Discover Pakistan",
+      "name_bn": "ডিসকভার পাকিস্তান",
+      "country": "Pakistan",
+      "category": "documentary",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/c/c3/Discover_Pakistan_HD_Logo.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/discover-pakistan-pk-jw"
+      }
+    },
+    {
+      "id": "bbc_one",
+      "name": "BBC One",
+      "name_bn": "বিবিসি ওয়ান",
+      "country": "UK",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/BBC_One_2021.svg/200px-BBC_One_2021.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=BBC_One"
+      }
+    },
+    {
+      "id": "supersport_football",
+      "name": "SuperSport Football",
+      "name_bn": "সুপারস্পোর্ট ফুটবল",
+      "country": "South Africa",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/SuperSport_logo.svg/200px-SuperSport_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/supersport-football-za-jw"
+      }
+    },
+    {
+      "id": "eurosport_1",
+      "name": "Eurosport 1",
+      "name_bn": "ইউরোস্পোর্ট ১",
+      "country": "France",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Eurosport_logo_2015.svg/200px-Eurosport_logo_2015.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free/v1/eurosports-1-fr-jw"
+      }
+    },
+    {
+      "id": "ion_us",
+      "name": "ION",
+      "name_bn": "আয়ন টিভি",
+      "country": "USA",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ion_Television_logo.svg/200px-Ion_Television_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "https://cdn.stmify.com/embed-free/v1/ion-us-jw"
+      }
+    },
+    {
+      "id": "espn",
+      "name": "ESPN",
+      "name_bn": "ইএসপিএন",
+      "country": "USA",
+      "category": "sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/200px-ESPN_wordmark.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=ESPN"
+      }
+    },
+    {
+      "id": "nickelodeon",
+      "name": "Nickelodeon",
+      "name_bn": "নিকেলোডিয়ন",
+      "country": "USA",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Nickelodeon_logo_2023.svg/200px-Nickelodeon_logo_2023.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Nickelodeon"
+      }
+    },
+    {
+      "id": "animax",
+      "name": "Animax",
+      "name_bn": "অ্যানিম্যাক্স",
+      "country": "Japan",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Animax_logo_2016.svg/200px-Animax_logo_2016.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Animax"
+      }
+    },
+    {
+      "id": "nick_jr",
+      "name": "Nick Jr.",
+      "name_bn": "নিক জুনিয়র",
+      "country": "USA",
+      "category": "kids",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Nick_Jr._logo_2023.svg/200px-Nick_Jr._logo_2023.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Nick_Jr."
+      }
+    },
+    {
+      "id": "warner_tv",
+      "name": "Warner TV",
+      "name_bn": "ওয়ার্নার টিভি",
+      "country": "USA",
+      "category": "entertainment",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Warner_TV_logo.svg/200px-Warner_TV_logo.svg.png",
+      "source_type": "stmify_iframe",
+      "scrape_config": {
+        "iframe_url": "//cdn.stmify.com/embed-free.php?id=Warner_TV"
+      }
+    },
+    {
       "id": "cartoon_network",
       "name": "Cartoon Network",
       "name_bn": "কার্টুন নেটওয়ার্ক",
