@@ -15,16 +15,10 @@ class StreamScraper:
         self.output_dir.mkdir(exist_ok=True)
     
     def get_logo_url(self, logo_filename):
-        """
-        Convert logo filename to full URL
-        Handles both:
-        - Local files: "Jamuna TV.webp" → https://hecker723626.github.io/tv-streams/logos/Jamuna%20TV.webp
-        - External URLs: "https://..." → returns as-is
-        """
+        """Convert logo filename to full URL"""
         if logo_filename.startswith('http'):
-            return logo_filename  # Already a full URL
+            return logo_filename
         
-        # Encode filename for URL (handles spaces and special chars)
         encoded = quote(logo_filename)
         return f"https://hecker723626.github.io/tv-streams/logos/{encoded}"
     
@@ -55,21 +49,18 @@ class StreamScraper:
             headers = {'User-Agent': 'Mozilla/5.0'}
             response = requests.get(video_url, headers=headers, timeout=10)
             
-            # Try to find HLS manifest
             pattern = r'"hlsManifestUrl":"([^"]+)"'
             match = re.search(pattern, response.text)
             
             if match:
                 return match.group(1).replace('\\u0026', '&')
             
-            # Fallback: extract video ID and return embed
             video_id = None
             if '/watch?v=' in video_url:
                 video_id = video_url.split('v=')[1].split('&')[0]
             elif '/embed/' in video_url:
                 video_id = video_url.split('/embed/')[1].split('?')[0]
             elif '/channel/' in video_url and '/live' in video_url:
-                # For /channel/ID/live URLs, try to get video ID from page
                 vid_match = re.search(r'"videoId":"([^"]+)"', response.text)
                 if vid_match:
                     video_id = vid_match.group(1)
@@ -87,7 +78,6 @@ class StreamScraper:
         if not source_url:
             return None
         
-        # Ensure URL has protocol
         if source_url.startswith('//'):
             source_url = 'https:' + source_url
         elif not source_url.startswith('http'):
@@ -95,12 +85,10 @@ class StreamScraper:
         
         source_type = self.detect_source_type(source_url)
         
-        # YouTube: try to extract M3U8 or video ID
         if source_type in ['youtube_live', 'youtube_embed']:
             processed = self.extract_youtube_m3u8(source_url)
             return processed if processed else source_url
         
-        # All other URLs: return as-is
         return source_url
     
     def scrape_all(self):
@@ -121,7 +109,6 @@ class StreamScraper:
                 fail_count += 1
                 continue
             
-            # Process all sources
             processed_sources = {}
             for src_key, src_url in sources_dict.items():
                 processed_url = self.process_source(src_url)
@@ -132,7 +119,6 @@ class StreamScraper:
                     }
             
             if processed_sources:
-                # Use first source as primary
                 first_source = list(processed_sources.values())[0]
                 
                 self.streams.append({
@@ -155,7 +141,7 @@ class StreamScraper:
         return self.streams
     
     def generate_m3u8(self):
-        """Generate M3U8 playlist (uses primary source only)"""
+        """Generate M3U8 playlist"""
         m3u8_content = "#EXTM3U\n"
         
         for stream in self.streams:
@@ -170,12 +156,10 @@ class StreamScraper:
     
     def save_outputs(self):
         """Save all output files"""
-        # M3U8 Playlist
         m3u8_path = self.output_dir / 'playlist.m3u8'
         with open(m3u8_path, 'w', encoding='utf-8') as f:
             f.write(self.generate_m3u8())
         
-        # JSON API
         json_path = self.output_dir / 'streams.json'
         with open(json_path, 'w', encoding='utf-8') as f:
             json.dump({
@@ -185,7 +169,6 @@ class StreamScraper:
                 'streams': self.streams
             }, f, indent=2, ensure_ascii=False)
         
-        # Web Player
         html_path = self.output_dir / 'index.html'
         with open(html_path, 'w', encoding='utf-8') as f:
             f.write(self.generate_index_html())
@@ -194,8 +177,7 @@ class StreamScraper:
         print(f"📁 Saved to: {self.output_dir.absolute()}")
 
     def generate_index_html(self):
-        """Generate modern web player interface"""
-        # Group by genre
+        """Generate modern web player interface with FIXED source switching"""
         by_genre = {}
         for stream in self.streams:
             genre = stream['genre']
@@ -203,7 +185,6 @@ class StreamScraper:
                 by_genre[genre] = []
             by_genre[genre].append(stream)
         
-        # Generate tabs and content
         tabs_html = ''
         content_html = ''
         
@@ -308,23 +289,33 @@ class StreamScraper:
             font-size: 0.9rem; transition: all 0.3s;
         }}
         .source-btn:hover {{ background: rgba(255,255,255,0.3); }}
-        .source-btn.active {{ background: rgba(255,255,255,0.4); font-weight: bold; }}
+        .source-btn.active {{ background: rgba(255,255,255,0.4); font-weight: bold; border-color: rgba(255,255,255,0.6); }}
         
         .close-btn {{
             background: rgba(255,0,0,0.8); border: none; color: white;
             font-size: 1.5rem; width: 45px; height: 45px; border-radius: 50%;
             cursor: pointer; transition: all 0.3s;
         }}
-        .close-btn:hover {{ background: rgba(255,0,0,1); }}
+        .close-btn:hover {{ background: rgba(255,0,0,1); transform: scale(1.1); }}
         
-        .player-container {{ width: 100%; max-width: 1200px; background: #000; border-radius: 10px; overflow: hidden; }}
-        .player-iframe {{ width: 100%; height: 80vh; border: none; }}
+        .player-container {{ 
+            width: 100%; max-width: 1200px; background: #000; 
+            border-radius: 10px; overflow: hidden; position: relative;
+        }}
+        .player-iframe {{ width: 100%; height: 80vh; border: none; display: block; }}
+        
+        .loading-spinner {{
+            display: none; position: absolute; top: 50%; left: 50%;
+            transform: translate(-50%, -50%); color: white; font-size: 1.2rem;
+        }}
+        .loading-spinner.active {{ display: block; }}
         
         footer {{ text-align: center; margin-top: 50px; padding: 20px; opacity: 0.8; }}
         
         @media (max-width: 768px) {{
             h1 {{ font-size: 1.8rem; }}
             .channel-grid {{ grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }}
+            .player-header {{ flex-direction: column; gap: 15px; }}
         }}
     </style>
 </head>
@@ -354,13 +345,16 @@ class StreamScraper:
             </div>
         </div>
         <div class="player-container">
+            <div class="loading-spinner" id="loadingSpinner">Loading...</div>
             <iframe class="player-iframe" id="playerFrame" allowfullscreen allow="autoplay"></iframe>
         </div>
     </div>
     
     <script>
         let currentChannel = null;
+        let currentSourceKey = null;
         
+        // Genre tab switching
         document.querySelectorAll('.tab-btn').forEach(btn => {{
             btn.onclick = () => {{
                 const genre = btn.dataset.genre;
@@ -371,6 +365,7 @@ class StreamScraper:
             }};
         }});
         
+        // Channel card click
         document.querySelectorAll('.channel-card').forEach(card => {{
             card.onclick = () => {{
                 currentChannel = JSON.parse(card.dataset.channel);
@@ -379,6 +374,9 @@ class StreamScraper:
         }});
         
         function openPlayer(channel) {{
+            console.log('Opening channel:', channel.name);
+            console.log('Available sources:', channel.sources);
+            
             document.getElementById('playerTitle').textContent = channel.name;
             
             const sourcesContainer = document.getElementById('sourceBtns');
@@ -387,41 +385,97 @@ class StreamScraper:
             const sources = channel.sources || {{}};
             const sourceKeys = Object.keys(sources);
             
+            // Always create source buttons if multiple sources exist
             if (sourceKeys.length > 1) {{
                 sourceKeys.forEach((key, idx) => {{
                     const btn = document.createElement('button');
                     btn.className = 'source-btn' + (idx === 0 ? ' active' : '');
                     btn.textContent = key.toUpperCase();
+                    btn.dataset.sourceKey = key;  // Store the actual source key
                     btn.onclick = () => loadSource(key);
                     sourcesContainer.appendChild(btn);
                 }});
             }}
             
-            loadSource(sourceKeys[0]);
+            // Load first source by default
+            if (sourceKeys.length > 0) {{
+                loadSource(sourceKeys[0]);
+            }}
+            
             document.getElementById('playerModal').classList.add('active');
         }}
         
         function loadSource(sourceKey) {{
-            const source = currentChannel.sources[sourceKey];
+            console.log('Loading source:', sourceKey);
             
+            // Validate source exists
+            if (!currentChannel || !currentChannel.sources || !currentChannel.sources[sourceKey]) {{
+                console.error('Source not found:', sourceKey);
+                alert('This source is not available');
+                return;
+            }}
+            
+            const source = currentChannel.sources[sourceKey];
+            console.log('Source data:', source);
+            
+            currentSourceKey = sourceKey;
+            
+            // Update active button
             document.querySelectorAll('.source-btn').forEach(btn => {{
-                btn.classList.toggle('active', btn.textContent === sourceKey.toUpperCase());
+                const isActive = btn.dataset.sourceKey === sourceKey;
+                btn.classList.toggle('active', isActive);
             }});
             
+            // Show loading
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            const playerFrame = document.getElementById('playerFrame');
+            loadingSpinner.classList.add('active');
+            
+            // Handle different source types
             if (source.type === 'direct_m3u8') {{
+                // For direct M3U8, open in new tab
                 window.open(source.url, '_blank');
+                loadingSpinner.classList.remove('active');
             }} else {{
-                document.getElementById('playerFrame').src = source.url;
+                // For iframe sources, load in player
+                // Clear previous iframe first
+                playerFrame.src = '';
+                
+                // Small delay to ensure clean state
+                setTimeout(() => {{
+                    playerFrame.src = source.url;
+                    
+                    // Hide loading after delay
+                    setTimeout(() => {{
+                        loadingSpinner.classList.remove('active');
+                    }}, 2000);
+                }}, 100);
             }}
         }}
         
         function closePlayer() {{
             document.getElementById('playerModal').classList.remove('active');
             document.getElementById('playerFrame').src = '';
+            document.getElementById('loadingSpinner').classList.remove('active');
+            currentChannel = null;
+            currentSourceKey = null;
         }}
         
+        // Close on Escape key
         document.addEventListener('keydown', (e) => {{
             if (e.key === 'Escape') closePlayer();
+        }});
+        
+        // Prevent closing when clicking inside player
+        document.querySelector('.player-container').addEventListener('click', (e) => {{
+            e.stopPropagation();
+        }});
+        
+        // Close when clicking outside player
+        document.getElementById('playerModal').addEventListener('click', (e) => {{
+            if (e.target.id === 'playerModal') {{
+                closePlayer();
+            }}
         }});
     </script>
 </body>
@@ -443,6 +497,6 @@ if __name__ == '__main__':
         print("❌ channels.json not found!")
         exit(1)
     
-    scraper = StreamScraper(config)
+    scraper = StreamSaper(config)
     scraper.scrape_all()
     scraper.save_outputs()
