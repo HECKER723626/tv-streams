@@ -1,121 +1,120 @@
 {
   "channels": [
-{
-    "id": "jamuna-tv",
-    "name": "Jamuna TV",
-    "logo": "https://cdn.brandfetch.io/idpgvitYRm/w/250/h/250/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
-    "genre": "news",
-    "sources": {
-      "src1": "//cdn.stmify.com/embed-free/v1/nicktoons-us-jw"
-    }
-  },
     {
-    "id": "news24",
-    "name": "News24",
-    "logo": "https://cdn.brandfetch.io/idQmSUgKLc/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
-    "genre": "news",
-    "sources": {
-      "src1": "https://www.youtube.com/channel/UCb2O5Uo4a26CdTE7_2QA-jA/live"
-    }
-  },
+      "id": "jamuna-tv",
+      "name": "Jamuna TV",
+      "logo": "https://cdn.brandfetch.io/idpgvitYRm/w/250/h/250/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
+      "genre": "news",
+      "sources": {
+        "src1": "//cdn.stmify.com/embed-free/v1/nicktoons-us-jw"
+      }
+    },
     {
-    "id": "atn-news",
-    "name": "ATN News",
-    "logo": "https://cdn.brandfetch.io/idtSPZdCvF/w/400/h/400/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B",
-    "genre": "news",
-    "sources": {
-      "src1": "https://www.youtube.com/channel/UCKfJkIbQJhK3pZvC5TmNQ5Q/live"
-    }
-  },
-  {
-    "id": "bangla-vision",
-    "name": "Bangla Vision",
-    "logo": "https://upload.wikimedia.org/wikipedia/bn/thumb/e/e0/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%AD%E0%A6%BF%E0%A6%B6%E0%A6%A8_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg/330px-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%AD%E0%A6%BF%E0%A6%B6%E0%A6%A8_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg.png?20211111074047",
-    "genre": "entertainment",
-    "sources": {
-      "src1": "//mcaster.tv/channel/banglavision.php?u=boisakhitv&vw=100%&vh=471"
-    }
-  },
-     {
-    "id": "ntv",
-    "name": "NTV",
-    "logo": "https://upload.wikimedia.org/wikipedia/bn/thumb/0/0c/%E0%A6%8F%E0%A6%A8%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF_%28%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%29.svg/330px-%E0%A6%8F%E0%A6%A8%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF_%28%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%29.svg.png?20140317180850",
-    "genre": "entertainment",
-    "sources": {
-      "src1": "https://www.youtube.com/channel/UC0V3IJCnr6ZNjB9t_GLhFFA/live"
-    }
-  },
-  {
-    "id": "channel-24",
-    "name": "Channel 24",
-    "logo": "https://images.seeklogo.com/logo-png/42/1/channel-24-logo-png_seeklogo-424910.png",
-    "genre": "news",
-    "sources": {
-      "src1": "https://www.youtube.com/embed/9wG9C5tMI-4"
-    }
-  },
+      "id": "news24",
+      "name": "News24",
+      "logo": "https://cdn.brandfetch.io/idQmSUgKLc/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B",
+      "genre": "news",
+      "sources": {
+        "src1": "https://www.youtube.com/channel/UCb2O5Uo4a26CdTE7_2QA-jA/live"
+      }
+    },
     {
-    "id": "ekattor-tv",
-    "name": "Ekattor TV",
-    "logo": "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png",
-    "genre": "news",
-    "sources": {
-      "src1": "https://www.youtube.com/channel/UCtqvtAVmad5zywaziN6CbfA/live"
-    }
-  },
-  {
-    "id": "etv",
-    "name": "Ekushey Television",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Ekushey_Television_Logo.svg/500px-Ekushey_Television_Logo.svg.png?20211105182647",
-    "genre": "entertainment",
-    "sources": {
-      "src1": "https://www.youtube.com/embed/PPSow4LXejE"
-    }
-  },
+      "id": "atn-news",
+      "name": "ATN News",
+      "logo": "https://cdn.brandfetch.io/idtSPZdCvF/w/400/h/400/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B",
+      "genre": "news",
+      "sources": {
+        "src1": "https://www.youtube.com/channel/UCKfJkIbQJhK3pZvC5TmNQ5Q/live"
+      }
+    },
     {
-    "id": "somoy-tv",
-    "name": "Somoy TV",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/SOMOY_TV_Logo.svg/500px-SOMOY_TV_Logo.svg.png?20250102074852",
-    "genre": "news",
-    "sources": {
-      "src1": "https://www.youtube.com/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ/live"
-    }
-  },
-  {
-    "id": "independent-tv",
-    "name": "Independent TV",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Independent_Television_Logo.svg/330px-Independent_Television_Logo.svg.png?20150427101016",
-    "genre": "news",
-    "sources": {
-      "src1": "https://www.youtube.com/embed/PPSow4LXejE"
-    }
-  },
-  {
-    "id": "rtv",
-    "name": "RTV",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Rtv_bangladesh.svg/330px-Rtv_bangladesh.svg.png?20211022064507",
-    "genre": "entertainment",
-    "sources": {
-      "src1": "https://www.youtube.com/channel/UC2P5Fd5g41Gtcf1NlKxvBKQ/live"
-    }
-  },
+      "id": "bangla-vision",
+      "name": "Bangla Vision",
+      "logo": "https://upload.wikimedia.org/wikipedia/bn/thumb/e/e0/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%AD%E0%A6%BF%E0%A6%B6%E0%A6%A8_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg/330px-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%AD%E0%A6%BF%E0%A6%B6%E0%A6%A8_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg.png?20211111074047",
+      "genre": "entertainment",
+      "sources": {
+        "src1": "//mcaster.tv/channel/banglavision.php?u=boisakhitv&vw=100%&vh=471"
+      }
+    },
     {
-    "id": "gazi-tv",
-    "name": "Gazi TV",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Logo_of_GTV_%28Bangladesh%29.svg/500px-Logo_of_GTV_%28Bangladesh%29.svg.png",
-    "genre": "sports",
-    "sources": {
-      "src1": "//www.mcaster.tv/channel/gazitvglobal.php?u=gazitvglobal&vw=100%&vh=650"
-    }
-  },    
-{
+      "id": "ntv",
+      "name": "NTV",
+      "logo": "https://upload.wikimedia.org/wikipedia/bn/thumb/0/0c/%E0%A6%8F%E0%A6%A8%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF_%28%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%29.svg/330px-%E0%A6%8F%E0%A6%A8%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF_%28%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%29.svg.png?20140317180850",
+      "genre": "entertainment",
+      "sources": {
+        "src1": "https://www.youtube.com/channel/UC0V3IJCnr6ZNjB9t_GLhFFA/live"
+      }
+    },
+    {
+      "id": "channel-24",
+      "name": "Channel 24",
+      "logo": "https://images.seeklogo.com/logo-png/42/1/channel-24-logo-png_seeklogo-424910.png",
+      "genre": "news",
+      "sources": {
+        "src1": "https://www.youtube.com/embed/9wG9C5tMI-4"
+      }
+    },
+    {
+      "id": "ekattor-tv",
+      "name": "Ekattor TV",
+      "logo": "https://cdn.ekattorbd.com/contents/themes/public/style/images/logo.png",
+      "genre": "news",
+      "sources": {
+        "src1": "https://www.youtube.com/channel/UCtqvtAVmad5zywaziN6CbfA/live"
+      }
+    },
+    {
+      "id": "etv",
+      "name": "Ekushey Television",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Ekushey_Television_Logo.svg/500px-Ekushey_Television_Logo.svg.png?20211105182647",
+      "genre": "entertainment",
+      "sources": {
+        "src1": "https://www.youtube.com/embed/PPSow4LXejE"
+      }
+    },
+    {
+      "id": "somoy-tv",
+      "name": "Somoy TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/SOMOY_TV_Logo.svg/500px-SOMOY_TV_Logo.svg.png?20250102074852",
+      "genre": "news",
+      "sources": {
+        "src1": "https://www.youtube.com/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ/live"
+      }
+    },
+    {
+      "id": "independent-tv",
+      "name": "Independent TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Independent_Television_Logo.svg/330px-Independent_Television_Logo.svg.png?20150427101016",
+      "genre": "news",
+      "sources": {
+        "src1": "https://www.youtube.com/embed/PPSow4LXejE"
+      }
+    },
+    {
+      "id": "rtv",
+      "name": "RTV",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Rtv_bangladesh.svg/330px-Rtv_bangladesh.svg.png?20211022064507",
+      "genre": "entertainment",
+      "sources": {
+        "src1": "https://www.youtube.com/channel/UC2P5Fd5g41Gtcf1NlKxvBKQ/live"
+      }
+    },
+    {
+      "id": "gazi-tv",
+      "name": "Gazi TV",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Logo_of_GTV_%28Bangladesh%29.svg/500px-Logo_of_GTV_%28Bangladesh%29.svg.png",
+      "genre": "sports",
+      "sources": {
+        "src1": "//www.mcaster.tv/channel/gazitvglobal.php?u=gazitvglobal&vw=100%&vh=650"
+      }
+    },
+    {
       "id": "nhl-network",
       "name": "NHL Network",
       "logo": "https://stmify.com/wp-content/uploads/2025/12/646-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/nhl-network-ca-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/nhl-network-ca-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/nhl-network-ca-jw"
       }
     },
     {
@@ -124,8 +123,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/194-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/galaxy-id-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/galaxy-id-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/galaxy-id-jw"
       }
     },
     {
@@ -134,8 +132,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/12/644-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/abc-news-24-au-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/abc-news-24-au-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/abc-news-24-au-jw"
       }
     },
     {
@@ -144,8 +141,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/12/643-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/global-news-ca-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/global-news-ca-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/global-news-ca-jw"
       }
     },
     {
@@ -154,8 +150,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/12/642-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bfm-tv-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bfm-tv-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bfm-tv-fr-jw"
       }
     },
     {
@@ -164,8 +159,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/12/641-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/cbc-news-ca-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/cbc-news-ca-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/cbc-news-ca-jw"
       }
     },
     {
@@ -174,8 +168,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/12/640-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bloomberg-tv-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bloomberg-tv-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bloomberg-tv-us-jw"
       }
     },
     {
@@ -184,8 +177,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/11/638-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/star-gold-2-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/star-gold-2-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/star-gold-2-in-jw"
       }
     },
     {
@@ -194,8 +186,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/11/636-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/yahoo-finance-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/yahoo-finance-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/yahoo-finance-us-jw"
       }
     },
     {
@@ -204,8 +195,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/594-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/colors-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/colors-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/colors-hd-in-jw"
       }
     },
     {
@@ -215,9 +205,7 @@
       "genre": "entertainment",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/nat-geo-wild-us-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/nat-geo-wild-hd-in-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/nat-geo-wild-us-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/nat-geo-wild-hd-in-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/nat-geo-wild-hd-in-jw"
       }
     },
     {
@@ -226,8 +214,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/11/635-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/cnbc-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/cnbc-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/cnbc-us-jw"
       }
     },
     {
@@ -236,8 +223,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/11/634-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/ufc-tv-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/ufc-tv-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/ufc-tv-us-jw"
       }
     },
     {
@@ -246,8 +232,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/11/633-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/cbs-sports-golazo-network-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/cbs-sports-golazo-network-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/cbs-sports-golazo-network-us-jw"
       }
     },
     {
@@ -256,8 +241,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/11/632-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/telemundo-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/telemundo-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/telemundo-us-jw"
       }
     },
     {
@@ -266,8 +250,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/631-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/cbs-sports-network-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/cbs-sports-network-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/cbs-sports-network-us-jw"
       }
     },
     {
@@ -276,8 +259,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/629-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sky-sports-laliga-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sky-sports-laliga-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sky-sports-laliga-uk-jw"
       }
     },
     {
@@ -286,8 +268,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/630-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-entertainment-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bbc-entertainment-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-entertainment-uk-jw"
       }
     },
     {
@@ -296,8 +277,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/627-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sky-sports-hd-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sky-sports-hd-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sky-sports-hd-uk-jw"
       }
     },
     {
@@ -306,8 +286,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/269-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/laliga-tv-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/laliga-tv-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/laliga-tv-es-jw"
       }
     },
     {
@@ -316,8 +295,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/626-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-zone-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/hbo-zone-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-zone-us-jw"
       }
     },
     {
@@ -326,8 +304,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/625-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tennis-channel-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tennis-channel-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tennis-channel-us-jw"
       }
     },
     {
@@ -336,8 +313,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/624-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mgm-marquee-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mgm-marquee-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mgm-marquee-us-jw"
       }
     },
     {
@@ -346,8 +322,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/623-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mgm-plus-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mgm-plus-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mgm-plus-us-jw"
       }
     },
     {
@@ -356,8 +331,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/622-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-first-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bbc-first-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-first-uk-jw"
       }
     },
     {
@@ -366,8 +340,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/621-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/fivestarmax-east-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/fivestarmax-east-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/fivestarmax-east-us-jw"
       }
     },
     {
@@ -376,8 +349,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/10/620-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-boxing-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/hbo-boxing-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-boxing-us-jw"
       }
     },
     {
@@ -398,8 +370,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/08/394-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/crime-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/crime-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/crime-es-jw"
       }
     },
     {
@@ -408,8 +379,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/08/396-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/canal-hollywood-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/canal-hollywood-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/canal-hollywood-es-jw"
       }
     },
     {
@@ -440,8 +410,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/05/616-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/france-5-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/france-5-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/france-5-fr-jw"
       }
     },
     {
@@ -450,8 +419,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/05/615-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/france-2-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/france-2-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/france-2-fr-jw"
       }
     },
     {
@@ -460,8 +428,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/05/318-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/comedy-central-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/comedy-central-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/comedy-central-us-jw"
       }
     },
     {
@@ -496,8 +463,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/05/613-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rtl-de-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rtl-de-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rtl-de-jw"
       }
     },
     {
@@ -506,8 +472,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/05/612-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/das-erste-de-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/das-erste-de-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/das-erste-de-jw"
       }
     },
     {
@@ -516,8 +481,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/05/611-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/zdf-de-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/zdf-de-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/zdf-de-jw"
       }
     },
     {
@@ -526,8 +490,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/05/481-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/france-3-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/france-3-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/france-3-fr-jw"
       }
     },
     {
@@ -536,8 +499,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/05/510-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-four-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bbc-four-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-four-uk-jw"
       }
     },
     {
@@ -546,8 +508,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/05/60-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-movies-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-movies-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-movies-us-jw"
       }
     },
     {
@@ -566,8 +527,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/05/609-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rai-gulp-hd-it-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rai-gulp-hd-it-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rai-gulp-hd-it-jw"
       }
     },
     {
@@ -688,8 +648,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/64-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rotana-cinema-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rotana-cinema-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rotana-cinema-ae-jw"
       }
     },
     {
@@ -698,8 +657,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/387-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-2-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mbc-2-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-2-ae-jw"
       }
     },
     {
@@ -708,8 +666,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/598-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/film-gold-de-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/film-gold-de-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/film-gold-de-jw"
       }
     },
     {
@@ -748,8 +705,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/593-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/cgtn-documentary-cn-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/cgtn-documentary-cn-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/cgtn-documentary-cn-jw"
       }
     },
     {
@@ -758,8 +714,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/592-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/real-madrid-tv-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/real-madrid-tv-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/real-madrid-tv-es-jw"
       }
     },
     {
@@ -768,8 +723,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/591-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rai-italia-it-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rai-italia-it-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rai-italia-it-jw"
       }
     },
     {
@@ -828,8 +782,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/408-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/club-mtv-mx-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/club-mtv-mx-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/club-mtv-mx-jw"
       }
     },
     {
@@ -838,8 +791,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/400-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mtv-80s-mx-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mtv-80s-mx-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mtv-80s-mx-jw"
       }
     },
     {
@@ -848,8 +800,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/401-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mtv-00s-mx-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mtv-00s-mx-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mtv-00s-mx-jw"
       }
     },
     {
@@ -858,8 +809,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/399-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mtv-hits-mx-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mtv-hits-mx-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mtv-hits-mx-jw"
       }
     },
     {
@@ -868,8 +818,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/04/374-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mtv-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mtv-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mtv-us-jw"
       }
     },
     {
@@ -918,8 +867,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/330-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/nicktoons-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/nicktoons-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/nicktoons-us-jw"
       }
     },
     {
@@ -928,8 +876,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/581-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/starz-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/starz-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/starz-us-jw"
       }
     },
     {
@@ -938,8 +885,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/327-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/disney-xd-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/disney-xd-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/disney-xd-us-jw"
       }
     },
     {
@@ -948,8 +894,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/580-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tsn-5-ca-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tsn-5-ca-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tsn-5-ca-jw"
       }
     },
     {
@@ -958,8 +903,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/185-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/disney-jr-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/disney-jr-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/disney-jr-us-jw"
       }
     },
     {
@@ -968,8 +912,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/579-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tsn-4-ca-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tsn-4-ca-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tsn-4-ca-jw"
       }
     },
     {
@@ -978,8 +921,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/166-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/disney-channel-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/disney-channel-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/disney-channel-us-jw"
       }
     },
     {
@@ -988,8 +930,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/578-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tsn-3-ca-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tsn-3-ca-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tsn-3-ca-jw"
       }
     },
     {
@@ -1008,8 +949,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/577-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tsn-2-ca-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tsn-2-ca-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tsn-2-ca-jw"
       }
     },
     {
@@ -1030,8 +970,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/576-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tsn-1-ca-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tsn-1-ca-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tsn-1-ca-jw"
       }
     },
     {
@@ -1040,8 +979,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/573-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/ytv-ca-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/ytv-ca-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/ytv-ca-jw"
       }
     },
     {
@@ -1050,8 +988,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/572-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/treehouse-ca-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/treehouse-ca-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/treehouse-ca-jw"
       }
     },
     {
@@ -1072,8 +1009,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/570-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/adult-swim-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/adult-swim-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/adult-swim-us-jw"
       }
     },
     {
@@ -1082,8 +1018,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/153-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/oxygen-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/oxygen-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/oxygen-us-jw"
       }
     },
     {
@@ -1092,8 +1027,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/325-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-xtreme-mx-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/hbo-xtreme-mx-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-xtreme-mx-jw"
       }
     },
     {
@@ -1102,8 +1036,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/569-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-pop-mx-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/hbo-pop-mx-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-pop-mx-jw"
       }
     },
     {
@@ -1112,8 +1045,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/568-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-mundi-mx-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/hbo-mundi-mx-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-mundi-mx-jw"
       }
     },
     {
@@ -1122,8 +1054,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/567-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/ary-zindagae-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/ary-zindagae-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/ary-zindagae-pk-jw"
       }
     },
     {
@@ -1132,8 +1063,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/566-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/a-plus-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/a-plus-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/a-plus-pk-jw"
       }
     },
     {
@@ -1152,8 +1082,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/562-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/phoenix-chinese-cn-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/phoenix-chinese-cn-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/phoenix-chinese-cn-jw"
       }
     },
     {
@@ -1162,8 +1091,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/561-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/phoenix-infonews-cn-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/phoenix-infonews-cn-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/phoenix-infonews-cn-jw"
       }
     },
     {
@@ -1182,8 +1110,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/559-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/france-24-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/france-24-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/france-24-fr-jw"
       }
     },
     {
@@ -1202,8 +1129,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/557-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/deluxe-music-de-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/deluxe-music-de-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/deluxe-music-de-jw"
       }
     },
     {
@@ -1212,8 +1138,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/556-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/red-bull-tv-au-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/red-bull-tv-au-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/red-bull-tv-au-jw"
       }
     },
     {
@@ -1222,8 +1147,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/555-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/moviemax-east-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/moviemax-east-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/moviemax-east-us-jw"
       }
     },
     {
@@ -1232,8 +1156,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/554-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/moremax-hd-east-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/moremax-hd-east-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/moremax-hd-east-us-jw"
       }
     },
     {
@@ -1242,8 +1165,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/553-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/actionmax-hd-east-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/actionmax-hd-east-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/actionmax-hd-east-us-jw"
       }
     },
     {
@@ -1252,8 +1174,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/552-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bol-entertainment-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bol-entertainment-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bol-entertainment-pk-jw"
       }
     },
     {
@@ -1262,8 +1183,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/551-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/asharq-discovery-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/asharq-discovery-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/asharq-discovery-ae-jw"
       }
     },
     {
@@ -1272,8 +1192,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/550-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/dubai-sports-2-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/dubai-sports-2-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/dubai-sports-2-ae-jw"
       }
     },
     {
@@ -1282,8 +1201,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/549-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/dubai-sports-1-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/dubai-sports-1-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/dubai-sports-1-ae-jw"
       }
     },
     {
@@ -1302,8 +1220,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/546-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/goldmines-movies-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/goldmines-movies-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/goldmines-movies-in-jw"
       }
     },
     {
@@ -1312,8 +1229,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/547-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/goldmines2-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/goldmines2-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/goldmines2-in-jw"
       }
     },
     {
@@ -1322,8 +1238,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/545-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/goldmines-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/goldmines-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/goldmines-in-jw"
       }
     },
     {
@@ -1332,8 +1247,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/544-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/b4u-movies-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/b4u-movies-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/b4u-movies-in-jw"
       }
     },
     {
@@ -1342,8 +1256,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/543-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/starzplay-sports-1-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/starzplay-sports-1-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/starzplay-sports-1-ae-jw"
       }
     },
     {
@@ -1352,8 +1265,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/542-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-drama-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mbc-drama-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-drama-ae-jw"
       }
     },
     {
@@ -1372,8 +1284,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/540-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rai-sport-hd-it-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rai-sport-hd-it-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rai-sport-hd-it-jw"
       }
     },
     {
@@ -1392,8 +1303,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/537-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/kids-zone-plus-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/kids-zone-plus-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/kids-zone-plus-pk-jw"
       }
     },
     {
@@ -1402,8 +1312,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/536-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/france-4-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/france-4-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/france-4-fr-jw"
       }
     },
     {
@@ -1412,8 +1321,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/535-s-1-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/lotus-macau-cn-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/lotus-macau-cn-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/lotus-macau-cn-jw"
       }
     },
     {
@@ -1462,8 +1370,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/532-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/one-championship-sg-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/one-championship-sg-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/one-championship-sg-jw"
       }
     },
     {
@@ -1492,8 +1399,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/529-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/dazn-2-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/dazn-2-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/dazn-2-es-jw"
       }
     },
     {
@@ -1512,8 +1418,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/527-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/screenpix-action-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/screenpix-action-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/screenpix-action-us-jw"
       }
     },
     {
@@ -1522,8 +1427,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/526-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mgm-plus-hits-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mgm-plus-hits-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mgm-plus-hits-us-jw"
       }
     },
     {
@@ -1532,8 +1436,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/525-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mgm-plus-drive-in-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mgm-plus-drive-in-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mgm-plus-drive-in-us-jw"
       }
     },
     {
@@ -1542,8 +1445,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/275-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-lifestyle-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bbc-lifestyle-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-lifestyle-uk-jw"
       }
     },
     {
@@ -1562,8 +1464,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/524-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/nikky-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/nikky-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/nikky-uk-jw"
       }
     },
     {
@@ -1572,8 +1473,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/523-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/times-now-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/times-now-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/times-now-in-jw"
       }
     },
     {
@@ -1592,8 +1492,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/521-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/derana-tv-lk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/derana-tv-lk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/derana-tv-lk-jw"
       }
     },
     {
@@ -1602,8 +1501,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/519-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/go3-sport-open-lt-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/go3-sport-open-lt-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/go3-sport-open-lt-jw"
       }
     },
     {
@@ -1612,8 +1510,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/518-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/go3-sport-2-lt-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/go3-sport-2-lt-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/go3-sport-2-lt-jw"
       }
     },
     {
@@ -1622,8 +1519,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/03/517-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/go3-sport-1-lt-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/go3-sport-1-lt-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/go3-sport-1-lt-jw"
       }
     },
     {
@@ -1632,8 +1528,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/516-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-3-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mbc-3-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-3-ae-jw"
       }
     },
     {
@@ -1642,8 +1537,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/515-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rotana-kids-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rotana-kids-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rotana-kids-ae-jw"
       }
     },
     {
@@ -1718,8 +1612,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/511-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/amc-plus-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/amc-plus-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/amc-plus-us-jw"
       }
     },
     {
@@ -1728,8 +1621,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/509-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/kapamilya-channel-ph-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/kapamilya-channel-ph-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/kapamilya-channel-ph-jw"
       }
     },
     {
@@ -1758,8 +1650,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/266-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/wwe-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/wwe-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/wwe-us-jw"
       }
     },
     {
@@ -1778,8 +1669,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/505-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/geo-television-de-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/geo-television-de-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/geo-television-de-jw"
       }
     },
     {
@@ -1838,8 +1728,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/501-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/cctv-4-cn-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/cctv-4-cn-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/cctv-4-cn-jw"
       }
     },
     {
@@ -1858,8 +1747,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/77-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/star-gold-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/star-gold-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/star-gold-in-jw"
       }
     },
     {
@@ -1888,8 +1776,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/315-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mtv-live-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mtv-live-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mtv-live-us-jw"
       }
     },
     {
@@ -1898,8 +1785,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/497-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/event-tv-lk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/event-tv-lk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/event-tv-lk-jw"
       }
     },
     {
@@ -1918,8 +1804,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/494-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/w9-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/w9-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/w9-fr-jw"
       }
     },
     {
@@ -1928,8 +1813,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/493-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/nfl-network-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/nfl-network-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/nfl-network-us-jw"
       }
     },
     {
@@ -1938,8 +1822,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/02/492-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rai-2-due-hd-it-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rai-2-due-hd-it-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rai-2-due-hd-it-jw"
       }
     },
     {
@@ -1948,8 +1831,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/491-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sangeet-bhojpuri-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sangeet-bhojpuri-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sangeet-bhojpuri-in-jw"
       }
     },
     {
@@ -1958,8 +1840,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/490-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/movies-now-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/movies-now-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/movies-now-hd-in-jw"
       }
     },
     {
@@ -1968,8 +1849,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/489-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/romedy-now-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/romedy-now-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/romedy-now-in-jw"
       }
     },
     {
@@ -1978,8 +1858,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/488-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/planet-fun-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/planet-fun-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/planet-fun-pk-jw"
       }
     },
     {
@@ -1988,8 +1867,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/487-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tmc-ph-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tmc-ph-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tmc-ph-jw"
       }
     },
     {
@@ -1999,9 +1877,7 @@
       "genre": "entertainment",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/lifetime-us-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/lifetime-ph-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/lifetime-us-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/lifetime-ph-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/lifetime-ph-jw"
       }
     },
     {
@@ -2010,8 +1886,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/484-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-action-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mbc-action-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-action-ae-jw"
       }
     },
     {
@@ -2020,8 +1895,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/223-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/geo-news-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/geo-news-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/geo-news-pk-jw"
       }
     },
     {
@@ -2062,8 +1936,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/479-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/shorts-tv-active-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/shorts-tv-active-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/shorts-tv-active-in-jw"
       }
     },
     {
@@ -2072,8 +1945,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/478-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/korean-dramas-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/korean-dramas-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/korean-dramas-in-jw"
       }
     },
     {
@@ -2082,8 +1954,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/477-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/zoom-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/zoom-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/zoom-in-jw"
       }
     },
     {
@@ -2092,8 +1963,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/476-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/filmax-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/filmax-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/filmax-pk-jw"
       }
     },
     {
@@ -2102,8 +1972,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/475-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/film-world-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/film-world-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/film-world-pk-jw"
       }
     },
     {
@@ -2162,8 +2031,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/468-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mn-plus-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mn-plus-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mn-plus-hd-in-jw"
       }
     },
     {
@@ -2172,8 +2040,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/467-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mnx-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mnx-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mnx-hd-in-jw"
       }
     },
     {
@@ -2182,8 +2049,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/466-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/a2z-ph-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/a2z-ph-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/a2z-ph-jw"
       }
     },
     {
@@ -2212,8 +2078,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/463-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/zhejiang-tv-cn-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/zhejiang-tv-cn-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/zhejiang-tv-cn-jw"
       }
     },
     {
@@ -2252,8 +2117,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/455-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/oh-my-ceria-my-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/oh-my-ceria-my-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/oh-my-ceria-my-jw"
       }
     },
     {
@@ -2262,8 +2126,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/108-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-max-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-max-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-max-in-jw"
       }
     },
     {
@@ -2336,8 +2199,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/149-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/9x-jalwa-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/9x-jalwa-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/9x-jalwa-in-jw"
       }
     },
     {
@@ -2420,8 +2282,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/449-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/clan-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/clan-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/clan-es-jw"
       }
     },
     {
@@ -2440,8 +2301,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/447-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bollywood-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bollywood-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bollywood-hd-in-jw"
       }
     },
     {
@@ -2450,8 +2310,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/446-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bollywood-classic-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bollywood-classic-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bollywood-classic-hd-in-jw"
       }
     },
     {
@@ -2520,8 +2379,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/440-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/24h-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/24h-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/24h-es-jw"
       }
     },
     {
@@ -2530,8 +2388,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/439-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/spacetoon-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/spacetoon-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/spacetoon-ae-jw"
       }
     },
     {
@@ -2540,8 +2397,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/438-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rotana-aflamplus-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rotana-aflamplus-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rotana-aflamplus-ae-jw"
       }
     },
     {
@@ -2570,8 +2426,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/435-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/abudhabi-sports-2-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/abudhabi-sports-2-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/abudhabi-sports-2-ae-jw"
       }
     },
     {
@@ -2580,8 +2435,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/434-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/abudhabi-sports-1-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/abudhabi-sports-1-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/abudhabi-sports-1-ae-jw"
       }
     },
     {
@@ -2600,8 +2454,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/7-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/9xm-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/9xm-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/9xm-in-jw"
       }
     },
     {
@@ -2610,8 +2463,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/432-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/ion-plus-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/ion-plus-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/ion-plus-us-jw"
       }
     },
     {
@@ -2620,8 +2472,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/55-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/cine-sony-it-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/cine-sony-it-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/cine-sony-it-jw"
       }
     },
     {
@@ -2650,8 +2501,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/429-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/drama-hotpot-my-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/drama-hotpot-my-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/drama-hotpot-my-jw"
       }
     },
     {
@@ -2670,8 +2520,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/426-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/drama-hebat-my-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/drama-hebat-my-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/drama-hebat-my-jw"
       }
     },
     {
@@ -2700,8 +2549,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/423-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/la-1-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/la-1-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/la-1-es-jw"
       }
     },
     {
@@ -2710,8 +2558,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/143-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-pix-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-pix-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-pix-in-jw"
       }
     },
     {
@@ -2720,8 +2567,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2025/01/421-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/kix-cn-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/kix-cn-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/kix-cn-jw"
       }
     },
     {
@@ -2740,8 +2586,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/419-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/lawak-sentral-my-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/lawak-sentral-my-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/lawak-sentral-my-jw"
       }
     },
     {
@@ -2750,8 +2595,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/418-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tvn-movies-pinoy-ph-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tvn-movies-pinoy-ph-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tvn-movies-pinoy-ph-jw"
       }
     },
     {
@@ -2800,8 +2644,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/412-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/swarnavahini-lk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/swarnavahini-lk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/swarnavahini-lk-jw"
       }
     },
     {
@@ -2810,8 +2653,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/411-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/viva-cinema-ph-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/viva-cinema-ph-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/viva-cinema-ph-jw"
       }
     },
     {
@@ -2840,8 +2682,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/406-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/dazn-1-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/dazn-1-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/dazn-1-es-jw"
       }
     },
     {
@@ -2910,8 +2751,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/393-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/film-mantap-my-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/film-mantap-my-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/film-mantap-my-jw"
       }
     },
     {
@@ -2932,8 +2772,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/391-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/travel-taste-my-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/travel-taste-my-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/travel-taste-my-jw"
       }
     },
     {
@@ -2954,8 +2793,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/389-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/unifi-sports-my-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/unifi-sports-my-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/unifi-sports-my-jw"
       }
     },
     {
@@ -2964,8 +2802,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/388-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-max-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mbc-max-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-max-ae-jw"
       }
     },
     {
@@ -2974,8 +2811,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/386-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tap-tv-ph-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tap-tv-ph-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tap-tv-ph-jw"
       }
     },
     {
@@ -3014,8 +2850,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/382-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tap-movies-ph-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tap-movies-ph-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tap-movies-ph-jw"
       }
     },
     {
@@ -3024,8 +2859,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/381-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tap-action-flix-ph-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tap-action-flix-ph-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tap-action-flix-ph-jw"
       }
     },
     {
@@ -3034,8 +2868,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/380-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/calle-13-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/calle-13-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/calle-13-es-jw"
       }
     },
     {
@@ -3044,8 +2877,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/379-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bet-east-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bet-east-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bet-east-us-jw"
       }
     },
     {
@@ -3054,8 +2886,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/378-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sundance-tv-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sundance-tv-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sundance-tv-us-jw"
       }
     },
     {
@@ -3064,8 +2895,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/377-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/syfy-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/syfy-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/syfy-us-jw"
       }
     },
     {
@@ -3096,8 +2926,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/373-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/powerkids-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/powerkids-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/powerkids-in-jw"
       }
     },
     {
@@ -3126,8 +2955,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/12/370-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-2-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/hbo-2-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-2-us-jw"
       }
     },
     {
@@ -3220,8 +3048,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/361-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/usa-network-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/usa-network-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/usa-network-us-jw"
       }
     },
     {
@@ -3230,8 +3057,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/154-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rai-1-uno-hd-it-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rai-1-uno-hd-it-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rai-1-uno-hd-it-jw"
       }
     },
     {
@@ -3240,8 +3066,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/156-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rai-3-tre-hd-it-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rai-3-tre-hd-it-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rai-3-tre-hd-it-jw"
       }
     },
     {
@@ -3250,8 +3075,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/351-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/q-gamex-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/q-gamex-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/q-gamex-in-jw"
       }
     },
     {
@@ -3260,8 +3084,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/350-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/q-toonz-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/q-toonz-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/q-toonz-in-jw"
       }
     },
     {
@@ -3270,8 +3093,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/346-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/supersport-psl-za-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/supersport-psl-za-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/supersport-psl-za-jw"
       }
     },
     {
@@ -3280,8 +3102,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/345-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/channel-eye-lk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/channel-eye-lk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/channel-eye-lk-jw"
       }
     },
     {
@@ -3290,8 +3111,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/344-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rupavahini-lk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rupavahini-lk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rupavahini-lk-jw"
       }
     },
     {
@@ -3300,8 +3120,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/343-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/charana-lk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/charana-lk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/charana-lk-jw"
       }
     },
     {
@@ -3310,8 +3129,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/342-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/shakthi-tv-lk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/shakthi-tv-lk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/shakthi-tv-lk-jw"
       }
     },
     {
@@ -3320,8 +3138,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/341-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/urdu-1-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/urdu-1-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/urdu-1-pk-jw"
       }
     },
     {
@@ -3330,8 +3147,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/340-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/minimax-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/minimax-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/minimax-pk-jw"
       }
     },
     {
@@ -3340,8 +3156,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/338-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/star-bharat-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/star-bharat-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/star-bharat-in-jw"
       }
     },
     {
@@ -3350,8 +3165,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/329-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/nick-music-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/nick-music-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/nick-music-us-jw"
       }
     },
     {
@@ -3360,8 +3174,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/326-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/discovery-family-channel-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/discovery-family-channel-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/discovery-family-channel-us-jw"
       }
     },
     {
@@ -3370,8 +3183,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/324-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-comedy-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/hbo-comedy-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-comedy-us-jw"
       }
     },
     {
@@ -3390,8 +3202,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/322-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/star-movies-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/star-movies-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/star-movies-hd-in-jw"
       }
     },
     {
@@ -3400,8 +3211,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/317-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-plus-mx-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/hbo-plus-mx-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-plus-mx-jw"
       }
     },
     {
@@ -3420,8 +3230,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/313-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/supersport-laliga-za-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/supersport-laliga-za-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/supersport-laliga-za-jw"
       }
     },
     {
@@ -3430,8 +3239,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/312-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/supersport-premier-league-za-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/supersport-premier-league-za-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/supersport-premier-league-za-jw"
       }
     },
     {
@@ -3450,8 +3258,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/297-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/jalwa-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/jalwa-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/jalwa-pk-jw"
       }
     },
     {
@@ -3470,8 +3277,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/295-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tv1-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tv1-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tv1-pk-jw"
       }
     },
     {
@@ -3480,8 +3286,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/294-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/8xm-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/8xm-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/8xm-pk-jw"
       }
     },
     {
@@ -3532,8 +3337,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/276-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/epictv-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/epictv-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/epictv-in-jw"
       }
     },
     {
@@ -3542,8 +3346,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/274-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/joo-music-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/joo-music-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/joo-music-pk-jw"
       }
     },
     {
@@ -3562,8 +3365,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/270-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-sab-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-sab-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-sab-in-jw"
       }
     },
     {
@@ -3572,8 +3374,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/268-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-entertainment-television-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-entertainment-television-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-entertainment-television-hd-in-jw"
       }
     },
     {
@@ -3582,8 +3383,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/267-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-max-2-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-max-2-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-max-2-in-jw"
       }
     },
     {
@@ -3592,8 +3392,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/11/162-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-yay-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-yay-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-yay-in-jw"
       }
     },
     {
@@ -3612,8 +3411,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/257-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-two-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bbc-two-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-two-uk-jw"
       }
     },
     {
@@ -3622,8 +3420,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/254-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/axn-movies-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/axn-movies-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/axn-movies-es-jw"
       }
     },
     {
@@ -3632,8 +3429,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/253-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-earth-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bbc-earth-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-earth-uk-jw"
       }
     },
     {
@@ -3642,8 +3438,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/252-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/now-rock-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/now-rock-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/now-rock-uk-jw"
       }
     },
     {
@@ -3652,8 +3447,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/251-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/eurosports-2-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/eurosports-2-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/eurosports-2-fr-jw"
       }
     },
     {
@@ -3674,8 +3468,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/249-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/fashiontv-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/fashiontv-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/fashiontv-fr-jw"
       }
     },
     {
@@ -3708,8 +3501,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/245-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-arena-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sky-spores-arena-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-arena-uk-jw"
       }
     },
     {
@@ -3718,8 +3510,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/243-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/msnbc-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/msnbc-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/msnbc-us-jw"
       }
     },
     {
@@ -3728,8 +3519,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/242-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/ndtvindia-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/ndtvindia-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/ndtvindia-in-jw"
       }
     },
     {
@@ -3739,9 +3529,7 @@
       "genre": "entertainment",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/cinemax-east-us-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/cinemax-west-us-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/cinemax-east-us-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/cinemax-west-us-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/cinemax-west-us-jw"
       }
     },
     {
@@ -3751,9 +3539,7 @@
       "genre": "kids",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/hbo-family-us-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/hbo-family-id-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/hbo-family-us-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/hbo-family-id-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/hbo-family-id-jw"
       }
     },
     {
@@ -3763,9 +3549,7 @@
       "genre": "entertainment",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/hbo-signature-us-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/hbo-signature-id-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/hbo-signature-us-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/hbo-signature-id-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/hbo-signature-id-jw"
       }
     },
     {
@@ -3774,8 +3558,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/237-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-hits-id-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/hbo-hits-id-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/hbo-hits-id-jw"
       }
     },
     {
@@ -3786,10 +3569,7 @@
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/hbo-east-us-jw",
         "src2": "https://cdn.stmify.com/embed-free/v1/hbo-west-us-jw",
-        "src3": "https://cdn.stmify.com/embed-free/v1/hbo-id-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/hbo-east-us-jw",
-        "src5": "https://cdn.stmify.com/embed/v1/hbo-west-us-jw",
-        "src6": "https://cdn.stmify.com/embed/v1/hbo-id-jw"
+        "src3": "https://cdn.stmify.com/embed-free/v1/hbo-id-jw"
       }
     },
     {
@@ -3798,8 +3578,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/211-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-premier-league-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sky-spores-premier-league-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-premier-league-uk-jw"
       }
     },
     {
@@ -3808,8 +3587,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/232-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-tennis-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sky-spores-tennis-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-tennis-uk-jw"
       }
     },
     {
@@ -3830,8 +3608,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/227-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-news-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sky-spores-news-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-news-uk-jw"
       }
     },
     {
@@ -3840,8 +3617,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/225-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/euronews-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/euronews-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/euronews-fr-jw"
       }
     },
     {
@@ -3850,8 +3626,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/224-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/al-arabiya-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/al-arabiya-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/al-arabiya-ae-jw"
       }
     },
     {
@@ -3860,8 +3635,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/221-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/now-80s-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/now-80s-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/now-80s-uk-jw"
       }
     },
     {
@@ -3870,8 +3644,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/219-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/celestial-movies-cn-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/celestial-movies-cn-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/celestial-movies-cn-jw"
       }
     },
     {
@@ -3880,8 +3653,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/215-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/discover-pakistan-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/discover-pakistan-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/discover-pakistan-pk-jw"
       }
     },
     {
@@ -3900,8 +3672,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/210-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-golf-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sky-spores-golf-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-golf-uk-jw"
       }
     },
     {
@@ -3930,8 +3701,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/204-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/supersport-football-za-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/supersport-football-za-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/supersport-football-za-jw"
       }
     },
     {
@@ -3950,8 +3720,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/197-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/galaxy-premium-id-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/galaxy-premium-id-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/galaxy-premium-id-jw"
       }
     },
     {
@@ -3960,8 +3729,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/196-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/ion-mystery-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/ion-mystery-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/ion-mystery-us-jw"
       }
     },
     {
@@ -3970,8 +3738,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/195-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/eurosports-1-fr-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/eurosports-1-fr-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/eurosports-1-fr-jw"
       }
     },
     {
@@ -3981,9 +3748,7 @@
       "genre": "entertainment",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/sony-canal-novelas-us-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/sony-one-novelas-us-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/sony-canal-novelas-us-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/sony-one-novelas-us-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/sony-one-novelas-us-jw"
       }
     },
     {
@@ -3992,8 +3757,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/192-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/ion-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/ion-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/ion-us-jw"
       }
     },
     {
@@ -4002,8 +3766,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/188-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-football-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sky-spores-football-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sky-spores-football-uk-jw"
       }
     },
     {
@@ -4054,8 +3817,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/179-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/love-nature-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/love-nature-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/love-nature-us-jw"
       }
     },
     {
@@ -4122,8 +3884,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/10/165-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/dw-de-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/dw-de-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/dw-de-jw"
       }
     },
     {
@@ -4132,8 +3893,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/163-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-channel-competencias-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-channel-competencias-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-channel-competencias-us-jw"
       }
     },
     {
@@ -4142,8 +3902,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/161-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/real-wild-nz-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/real-wild-nz-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/real-wild-nz-jw"
       }
     },
     {
@@ -4162,8 +3921,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/159-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/b4u-kadak-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/b4u-kadak-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/b4u-kadak-in-jw"
       }
     },
     {
@@ -4172,8 +3930,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/158-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-bbc-earth-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-bbc-earth-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-bbc-earth-hd-in-jw"
       }
     },
     {
@@ -4182,8 +3939,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/155-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-hits-comedia-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-hits-comedia-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-hits-comedia-es-jw"
       }
     },
     {
@@ -4192,8 +3948,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/152-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bein-sports-xtra-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bein-sports-xtra-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bein-sports-xtra-us-jw"
       }
     },
     {
@@ -4202,8 +3957,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/150-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-series-thriller-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-series-thriller-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-series-thriller-es-jw"
       }
     },
     {
@@ -4212,8 +3966,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/147-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-aath-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-aath-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-aath-in-jw"
       }
     },
     {
@@ -4222,8 +3975,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/144-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/starplus-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/starplus-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/starplus-in-jw"
       }
     },
     {
@@ -4232,8 +3984,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/140-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-series-comedia-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-series-comedia-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-series-comedia-es-jw"
       }
     },
     {
@@ -4242,8 +3993,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/139-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/oman-sports-om-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/oman-sports-om-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/oman-sports-om-jw"
       }
     },
     {
@@ -4252,8 +4002,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/138-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/ruposhi-bangla-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/ruposhi-bangla-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/ruposhi-bangla-in-jw"
       }
     },
     {
@@ -4262,8 +4011,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/136-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/tnt-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/tnt-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/tnt-us-jw"
       }
     },
     {
@@ -4272,8 +4020,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/131-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/dangal2-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/dangal2-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/dangal2-in-jw"
       }
     },
     {
@@ -4282,8 +4029,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/128-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-1-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mbc-1-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-1-ae-jw"
       }
     },
     {
@@ -4292,8 +4038,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/126-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/dabangg-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/dabangg-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/dabangg-in-jw"
       }
     },
     {
@@ -4302,8 +4047,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/123-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/dangal-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/dangal-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/dangal-in-jw"
       }
     },
     {
@@ -4312,8 +4056,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/121-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/fox-news-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/fox-news-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/fox-news-us-jw"
       }
     },
     {
@@ -4322,8 +4065,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/119-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/showbox-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/showbox-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/showbox-in-jw"
       }
     },
     {
@@ -4333,9 +4075,7 @@
       "genre": "entertainment",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/investigation-discovery-us-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/investigation-discovery-in-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/investigation-discovery-us-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/investigation-discovery-in-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/investigation-discovery-in-jw"
       }
     },
     {
@@ -4344,8 +4084,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/115-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/cnn-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/cnn-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/cnn-us-jw"
       }
     },
     {
@@ -4354,8 +4093,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/114-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-serie-thriller-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-serie-thriller-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-serie-thriller-es-jw"
       }
     },
     {
@@ -4364,8 +4102,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/113-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/gubbare-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/gubbare-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/gubbare-in-jw"
       }
     },
     {
@@ -4374,8 +4111,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/09/111-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-bollywood-ae-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mbc-bollywood-ae-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mbc-bollywood-ae-jw"
       }
     },
     {
@@ -4394,8 +4130,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/109-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-hits-accion-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-hits-accion-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-hits-accion-es-jw"
       }
     },
     {
@@ -4404,8 +4139,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/107-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mytime-movie-network-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mytime-movie-network-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mytime-movie-network-us-jw"
       }
     },
     {
@@ -4414,8 +4148,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/106-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/moviesphere-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/moviesphere-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/moviesphere-us-jw"
       }
     },
     {
@@ -4444,8 +4177,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/99-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/geo-entertainment-pk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/geo-entertainment-pk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/geo-entertainment-pk-jw"
       }
     },
     {
@@ -4466,8 +4198,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/92-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-world-news-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bbc-world-news-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bbc-world-news-uk-jw"
       }
     },
     {
@@ -4478,10 +4209,7 @@
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/discovery-science-us-jw",
         "src2": "https://cdn.stmify.com/embed-free/v1/discovery-science-in-jw",
-        "src3": "https://cdn.stmify.com/embed-free/v1/discovery-science-pk-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/discovery-science-us-jw",
-        "src5": "https://cdn.stmify.com/embed/v1/discovery-science-in-jw",
-        "src6": "https://cdn.stmify.com/embed/v1/discovery-science-pk-jw"
+        "src3": "https://cdn.stmify.com/embed-free/v1/discovery-science-pk-jw"
       }
     },
     {
@@ -4490,8 +4218,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/90-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/dhoom-music-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/dhoom-music-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/dhoom-music-in-jw"
       }
     },
     {
@@ -4500,8 +4227,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/88-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-exitos-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-exitos-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-exitos-es-jw"
       }
     },
     {
@@ -4510,8 +4236,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/86-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/amc-network-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/amc-network-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/amc-network-us-jw"
       }
     },
     {
@@ -4520,8 +4245,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/85-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-movie-channel-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-movie-channel-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-movie-channel-us-jw"
       }
     },
     {
@@ -4530,8 +4254,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/79-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/jalsha-movies-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/jalsha-movies-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/jalsha-movies-hd-in-jw"
       }
     },
     {
@@ -4540,8 +4263,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/78-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/colors-bangla-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/colors-bangla-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/colors-bangla-hd-in-jw"
       }
     },
     {
@@ -4550,8 +4272,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/76-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/republic-bangla-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/republic-bangla-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/republic-bangla-in-jw"
       }
     },
     {
@@ -4560,8 +4281,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/68-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/cartoon-network-us-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/cartoon-network-us-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/cartoon-network-us-jw"
       }
     },
     {
@@ -4570,8 +4290,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/65-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/star-jalsha-hd-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/star-jalsha-hd-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/star-jalsha-hd-in-jw"
       }
     },
     {
@@ -4592,8 +4311,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/61-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/travelxp-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/travelxp-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/travelxp-in-jw"
       }
     },
     {
@@ -4602,8 +4320,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/59-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-the-blacklist-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-the-blacklist-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-the-blacklist-es-jw"
       }
     },
     {
@@ -4612,8 +4329,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/58-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sangeet-bangla-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sangeet-bangla-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sangeet-bangla-in-jw"
       }
     },
     {
@@ -4622,8 +4338,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/50-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/pogo-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/pogo-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/pogo-in-jw"
       }
     },
     {
@@ -4633,9 +4348,7 @@
       "genre": "entertainment",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-shark-tank-es-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/sony-one-shark-tank-brasil-br-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/sony-one-shark-tank-es-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/sony-one-shark-tank-brasil-br-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/sony-one-shark-tank-brasil-br-jw"
       }
     },
     {
@@ -4668,8 +4381,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/43-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-comedy-hits-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-comedy-hits-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-comedy-hits-uk-jw"
       }
     },
     {
@@ -4679,9 +4391,7 @@
       "genre": "entertainment",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-action-hits-uk-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/sony-one-action-hits-de-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/sony-one-action-hits-uk-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/sony-one-action-hits-de-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/sony-one-action-hits-de-jw"
       }
     },
     {
@@ -4690,8 +4400,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/36-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/khushboo-bangla-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/khushboo-bangla-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/khushboo-bangla-in-jw"
       }
     },
     {
@@ -4700,8 +4409,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/35-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/mastiii-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/mastiii-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/mastiii-in-jw"
       }
     },
     {
@@ -4710,8 +4418,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/33-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-faves-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-faves-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-faves-uk-jw"
       }
     },
     {
@@ -4720,8 +4427,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/29-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/bein-sports-xtra-en-espanol-es-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/bein-sports-xtra-en-espanol-es-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/bein-sports-xtra-en-espanol-es-jw"
       }
     },
     {
@@ -4730,8 +4436,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/28-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-thriller-tv-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-thriller-tv-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-thriller-tv-uk-jw"
       }
     },
     {
@@ -4740,8 +4445,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/27-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/music-india-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/music-india-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/music-india-in-jw"
       }
     },
     {
@@ -4750,8 +4454,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/24-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-comedy-tv-uk-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/sony-one-comedy-tv-uk-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/sony-one-comedy-tv-uk-jw"
       }
     },
     {
@@ -4760,8 +4463,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/22-s-150x84.webp",
       "genre": "entertainment",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/enterr10-bangla-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/enterr10-bangla-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/enterr10-bangla-in-jw"
       }
     },
     {
@@ -4770,8 +4472,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/21-s-150x84.webp",
       "genre": "kids",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/discovery-kids-in-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/discovery-kids-in-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/discovery-kids-in-jw"
       }
     },
     {
@@ -4780,8 +4481,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/20-s-150x84.webp",
       "genre": "news",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/somoy-tv-bd-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/somoy-tv-bd-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/somoy-tv-bd-jw"
       }
     },
     {
@@ -4791,9 +4491,7 @@
       "genre": "entertainment",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/animal-planet-us-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/animal-planet-hd-in-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/animal-planet-us-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/animal-planet-hd-in-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/animal-planet-hd-in-jw"
       }
     },
     {
@@ -4802,8 +4500,7 @@
       "logo": "https://stmify.com/wp-content/uploads/2024/08/8-s-150x84.webp",
       "genre": "sports",
       "sources": {
-        "src1": "https://cdn.stmify.com/embed-free/v1/rta-sport-af-jw",
-        "src2": "https://cdn.stmify.com/embed/v1/rta-sport-af-jw"
+        "src1": "https://cdn.stmify.com/embed-free/v1/rta-sport-af-jw"
       }
     },
     {
@@ -4815,11 +4512,7 @@
         "src1": "https://cdn.stmify.com/embed-free/v1/rakuten-tv-drama-fr-jw",
         "src2": "https://cdn.stmify.com/embed-free/v1/rakuten-tv-drama-it-jw",
         "src3": "https://cdn.stmify.com/embed-free/v1/rakuten-tv-drama-uk-jw",
-        "src4": "https://cdn.stmify.com/embed-free/v1/rakuten-tv-drama-es-jw",
-        "src5": "https://cdn.stmify.com/embed/v1/rakuten-tv-drama-fr-jw",
-        "src6": "https://cdn.stmify.com/embed/v1/rakuten-tv-drama-it-jw",
-        "src7": "https://cdn.stmify.com/embed/v1/rakuten-tv-drama-uk-jw",
-        "src8": "https://cdn.stmify.com/embed/v1/rakuten-tv-drama-es-jw"
+        "src4": "https://cdn.stmify.com/embed-free/v1/rakuten-tv-drama-es-jw"
       }
     },
     {
@@ -4829,9 +4522,7 @@
       "genre": "entertainment",
       "sources": {
         "src1": "https://cdn.stmify.com/embed-free/v1/discovery-channel-us-jw",
-        "src2": "https://cdn.stmify.com/embed-free/v1/discovery-channel-in-jw",
-        "src3": "https://cdn.stmify.com/embed/v1/discovery-channel-us-jw",
-        "src4": "https://cdn.stmify.com/embed/v1/discovery-channel-in-jw"
+        "src2": "https://cdn.stmify.com/embed-free/v1/discovery-channel-in-jw"
       }
     }
   ],
