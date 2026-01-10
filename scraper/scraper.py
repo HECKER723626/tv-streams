@@ -497,6 +497,6 @@ if __name__ == '__main__':
         print("❌ channels.json not found!")
         exit(1)
     
-    scraper = StreamSaper(config)
+    scraper = StreamScraper(config)
     scraper.scrape_all()
     scraper.save_outputs()
