@@ -1,269 +1,278 @@
 #!/usr/bin/env python3
 import json
 import requests
-from bs4 import BeautifulSoup
 import re
-import os
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import quote
 
 class StreamScraper:
     def __init__(self, channels_config):
         self.channels = channels_config['channels']
+        self.genres = channels_config.get('genres', {})
         self.streams = []
         self.output_dir = Path('../public')
         self.output_dir.mkdir(exist_ok=True)
     
-    def scrape_youtube_live(self, config):
-        """Extract M3U8 from YouTube live using channel or handle"""
-        try:
-            # Try channel ID first
-            channel_id = config.get('youtube_channel_id')
-            if channel_id:
-                # Get channel's live stream page
-                channel_url = f"https://www.youtube.com/channel/{channel_id}/live"
-                headers = {'User-Agent': 'Mozilla/5.0'}
-                response = requests.get(channel_url, headers=headers, timeout=10)
-                
-                # Extract live video ID
-                video_id_match = re.search(r'"videoId":"([^"]+)"', response.text)
-                if video_id_match:
-                    video_id = video_id_match.group(1)
-                    return self.extract_youtube_m3u8(video_id)
-            
-            return None
-            
-        except Exception as e:
-            print(f"Error: {e}")
-            return None
+    def get_logo_url(self, logo_filename):
+        """
+        Convert logo filename to full URL
+        Handles both:
+        - Local files: "Jamuna TV.webp" → https://hecker723626.github.io/tv-streams/logos/Jamuna%20TV.webp
+        - External URLs: "https://..." → returns as-is
+        """
+        if logo_filename.startswith('http'):
+            return logo_filename  # Already a full URL
+        
+        # Encode filename for URL (handles spaces and special chars)
+        encoded = quote(logo_filename)
+        return f"https://hecker723626.github.io/tv-streams/logos/{encoded}"
     
-    def extract_youtube_m3u8(self, video_id):
-        """Extract M3U8 URL from YouTube video ID"""
+    def detect_source_type(self, url):
+        """Auto-detect source type from URL"""
+        if not url:
+            return 'unknown'
+        
+        url_lower = url.lower()
+        
+        if 'youtube.com' in url_lower or 'youtu.be' in url_lower:
+            if '/live' in url_lower or '/channel/' in url_lower:
+                return 'youtube_live'
+            elif '/embed/' in url_lower or '/watch' in url_lower:
+                return 'youtube_embed'
+        elif 'mcaster.tv' in url_lower:
+            return 'mcaster_iframe'
+        elif 'stmify.com' in url_lower or 'cdn.stmify.com' in url_lower:
+            return 'stmify_iframe'
+        elif url_lower.endswith('.m3u8') or 'm3u8' in url_lower:
+            return 'direct_m3u8'
+        else:
+            return 'iframe'
+    
+    def extract_youtube_m3u8(self, video_url):
+        """Extract M3U8 from YouTube URL"""
         try:
-            video_url = f"https://www.youtube.com/watch?v={video_id}"
             headers = {'User-Agent': 'Mozilla/5.0'}
             response = requests.get(video_url, headers=headers, timeout=10)
             
-            # Extract stream URL
+            # Try to find HLS manifest
             pattern = r'"hlsManifestUrl":"([^"]+)"'
             match = re.search(pattern, response.text)
             
             if match:
-                url = match.group(1).replace('\\u0026', '&')
-                return url
+                return match.group(1).replace('\\u0026', '&')
             
-            return None
-        except:
-            return None
-    
-    def scrape_youtube_embed(self, config):
-        """Extract video ID from YouTube embed URL"""
-        try:
-            embed_url = config.get('youtube_embed_url', '')
-            # Extract video ID from embed URL: /embed/VIDEO_ID
-            video_id_match = re.search(r'/embed/([a-zA-Z0-9_-]+)', embed_url)
-            if video_id_match:
-                video_id = video_id_match.group(1)
-                return self.extract_youtube_m3u8(video_id)
+            # Fallback: extract video ID and return embed
+            video_id = None
+            if '/watch?v=' in video_url:
+                video_id = video_url.split('v=')[1].split('&')[0]
+            elif '/embed/' in video_url:
+                video_id = video_url.split('/embed/')[1].split('?')[0]
+            elif '/channel/' in video_url and '/live' in video_url:
+                # For /channel/ID/live URLs, try to get video ID from page
+                vid_match = re.search(r'"videoId":"([^"]+)"', response.text)
+                if vid_match:
+                    video_id = vid_match.group(1)
+            
+            if video_id:
+                return f"https://www.youtube.com/embed/{video_id}"
+            
             return None
         except Exception as e:
-            print(f"Error: {e}")
+            print(f"YouTube error: {e}")
             return None
     
-    def scrape_iframe_stream(self, config, source_type):
-        """
-        For iframe sources, return the iframe URL directly
-        Android apps and web players can embed these
-        """
-        try:
-            iframe_url = config.get('iframe_url', '')
-            if not iframe_url:
-                return None
-            
-            # Ensure URL has protocol
-            if iframe_url.startswith('//'):
-                iframe_url = 'https:' + iframe_url
-            elif not iframe_url.startswith('http'):
-                iframe_url = 'https://' + iframe_url
-            
-            # Return iframe URL - apps will handle embedding
-            return iframe_url
-            
-        except Exception as e:
-            print(f"Error: {e}")
+    def process_source(self, source_url):
+        """Process a source URL and return playable URL"""
+        if not source_url:
             return None
+        
+        # Ensure URL has protocol
+        if source_url.startswith('//'):
+            source_url = 'https:' + source_url
+        elif not source_url.startswith('http'):
+            source_url = 'https://' + source_url
+        
+        source_type = self.detect_source_type(source_url)
+        
+        # YouTube: try to extract M3U8 or video ID
+        if source_type in ['youtube_live', 'youtube_embed']:
+            processed = self.extract_youtube_m3u8(source_url)
+            return processed if processed else source_url
+        
+        # All other URLs: return as-is
+        return source_url
     
     def scrape_all(self):
         """Scrape all channels"""
         print("🔍 Starting stream scraping...")
-        print(f"📊 Total channels to process: {len(self.channels)}\n")
+        print(f"📊 Total channels: {len(self.channels)}\n")
         
         success_count = 0
         fail_count = 0
         
         for idx, channel in enumerate(self.channels, 1):
-            print(f"[{idx}/{len(self.channels)}] {channel['name']}...", end=' ')
-            stream_url = None
+            name = channel.get('name', 'Unknown')
+            print(f"[{idx}/{len(self.channels)}] {name}...", end=' ')
             
-            source_type = channel.get('source_type', '')
+            sources_dict = channel.get('sources', {})
+            if not sources_dict:
+                print("❌ (no sources)")
+                fail_count += 1
+                continue
             
-            if source_type == 'youtube_live':
-                stream_url = self.scrape_youtube_live(channel['scrape_config'])
-            elif source_type == 'youtube_embed':
-                stream_url = self.scrape_youtube_embed(channel['scrape_config'])
-            elif source_type == 'direct':
-                stream_url = channel['scrape_config'].get('url')
-            elif source_type in ['mcaster_iframe', 'stmify_iframe']:
-                stream_url = self.scrape_iframe_stream(channel['scrape_config'], source_type)
+            # Process all sources
+            processed_sources = {}
+            for src_key, src_url in sources_dict.items():
+                processed_url = self.process_source(src_url)
+                if processed_url:
+                    processed_sources[src_key] = {
+                        'url': processed_url,
+                        'type': self.detect_source_type(processed_url)
+                    }
             
-            if stream_url:
+            if processed_sources:
+                # Use first source as primary
+                first_source = list(processed_sources.values())[0]
+                
                 self.streams.append({
-                    'id': channel['id'],
-                    'name': channel['name'],
-                    'name_bn': channel.get('name_bn', channel['name']),
-                    'country': channel.get('country', 'International'),
-                    'category': channel['category'],
-                    'logo': channel['logo'],
-                    'url': stream_url,
-                    'source_type': source_type,
+                    'id': channel.get('id', name.lower().replace(' ', '-')),
+                    'name': name,
+                    'logo': self.get_logo_url(channel.get('logo', 'placeholder.png')),
+                    'genre': channel.get('genre', 'entertainment'),
+                    'url': first_source['url'],
+                    'source_type': first_source['type'],
+                    'sources': processed_sources,
                     'updated_at': datetime.utcnow().isoformat()
                 })
-                print("✅")
+                print(f"✅ ({len(processed_sources)} sources)")
                 success_count += 1
             else:
-                print("❌")
+                print("❌ (all sources failed)")
                 fail_count += 1
         
         print(f"\n📈 Results: {success_count} successful, {fail_count} failed")
         return self.streams
     
     def generate_m3u8(self):
-        """Generate M3U8 playlist"""
+        """Generate M3U8 playlist (uses primary source only)"""
         m3u8_content = "#EXTM3U\n"
         
         for stream in self.streams:
+            genre_name = self.genres.get(stream['genre'], {}).get('name', stream['genre'].title())
             m3u8_content += f'#EXTINF:-1 tvg-id="{stream["id"]}" '
             m3u8_content += f'tvg-name="{stream["name"]}" '
             m3u8_content += f'tvg-logo="{stream["logo"]}" '
-            m3u8_content += f'group-title="{stream["category"].title()}",{stream["name"]}\n'
+            m3u8_content += f'group-title="{genre_name}",{stream["name"]}\n'
             m3u8_content += f'{stream["url"]}\n'
         
         return m3u8_content
     
     def save_outputs(self):
-        """Save M3U8 and JSON"""
+        """Save all output files"""
+        # M3U8 Playlist
         m3u8_path = self.output_dir / 'playlist.m3u8'
         with open(m3u8_path, 'w', encoding='utf-8') as f:
             f.write(self.generate_m3u8())
         
+        # JSON API
         json_path = self.output_dir / 'streams.json'
         with open(json_path, 'w', encoding='utf-8') as f:
             json.dump({
                 'last_updated': datetime.utcnow().isoformat(),
                 'total_streams': len(self.streams),
+                'genres': self.genres,
                 'streams': self.streams
             }, f, indent=2, ensure_ascii=False)
         
+        # Web Player
         html_path = self.output_dir / 'index.html'
         with open(html_path, 'w', encoding='utf-8') as f:
             f.write(self.generate_index_html())
         
         print(f"\n✅ Generated {len(self.streams)} streams")
-        print(f"📁 Files saved to: {self.output_dir.absolute()}")
+        print(f"📁 Saved to: {self.output_dir.absolute()}")
 
     def generate_index_html(self):
-        """Generate web interface with iframe support"""
-        # Group channels by category
-        by_category = {}
+        """Generate modern web player interface"""
+        # Group by genre
+        by_genre = {}
         for stream in self.streams:
-            cat = stream['category']
-            if cat not in by_category:
-                by_category[cat] = []
-            by_category[cat].append(stream)
+            genre = stream['genre']
+            if genre not in by_genre:
+                by_genre[genre] = []
+            by_genre[genre].append(stream)
         
-        # Generate category tabs HTML
-        category_tabs = ''
-        category_content = ''
+        # Generate tabs and content
+        tabs_html = ''
+        content_html = ''
         
-        for idx, (cat, channels) in enumerate(by_category.items()):
+        for idx, (genre, channels) in enumerate(by_genre.items()):
             active = 'active' if idx == 0 else ''
-            category_tabs += f'<button class="tab-btn {active}" data-category="{cat}">{cat.title()} ({len(channels)})</button>'
+            genre_info = self.genres.get(genre, {'name': genre.title(), 'icon': '📺'})
             
-            category_content += f'<div class="category-content {active}" data-category="{cat}">'
-            category_content += '<div class="channel-grid">'
+            tabs_html += f'''
+            <button class="tab-btn {active}" data-genre="{genre}">
+                {genre_info["icon"]} {genre_info["name"]} ({len(channels)})
+            </button>'''
+            
+            content_html += f'<div class="genre-content {active}" data-genre="{genre}">'
+            content_html += '<div class="channel-grid">'
             
             for ch in channels:
-                # Determine if it's iframe or direct stream
-                is_iframe = ch['source_type'] in ['mcaster_iframe', 'stmify_iframe']
-                play_type = 'iframe' if is_iframe else 'direct'
+                num_sources = len(ch.get('sources', {}))
                 
-                category_content += f'''
-                <div class="channel-card" data-url="{ch['url']}" data-type="{play_type}" data-name="{ch['name']}">
-                    <img src="{ch['logo']}" class="channel-logo" alt="{ch['name']}">
+                content_html += f'''
+                <div class="channel-card" data-channel='{json.dumps(ch, ensure_ascii=False)}'>
+                    <img src="{ch['logo']}" class="channel-logo" alt="{ch['name']}" 
+                         onerror="this.src='https://via.placeholder.com/100x100/667eea/ffffff?text={ch['name'][:2]}'">
                     <h3>{ch['name']}</h3>
-                    <span class="country">{ch['country']}</span>
-                </div>
-                '''
+                    <span class="badge">{num_sources} source{'s' if num_sources > 1 else ''}</span>
+                </div>'''
             
-            category_content += '</div></div>'
+            content_html += '</div></div>'
         
         return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live TV Streams - {len(self.streams)} Channels</title>
+    <title>Live TV - {len(self.streams)} Channels</title>
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
         body {{ 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             min-height: 100vh;
         }}
         .container {{ max-width: 1400px; margin: 0 auto; padding: 20px; }}
-        
         header {{ text-align: center; margin-bottom: 30px; }}
-        h1 {{ font-size: 2.5rem; margin-bottom: 10px; }}
-        .stats {{ font-size: 1.1rem; opacity: 0.9; }}
+        h1 {{ font-size: 2.5rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }}
+        .stats {{ font-size: 1rem; opacity: 0.9; margin-top: 10px; }}
         .stats a {{ color: #fff; text-decoration: underline; }}
         
-        .tabs {{ 
-            display: flex; 
-            gap: 10px; 
-            margin-bottom: 30px; 
-            flex-wrap: wrap;
-            justify-content: center;
-        }}
+        .tabs {{ display: flex; gap: 10px; margin-bottom: 30px; flex-wrap: wrap; justify-content: center; }}
         .tab-btn {{ 
-            background: rgba(255,255,255,0.2); 
-            border: none; 
-            padding: 12px 24px; 
-            border-radius: 25px;
-            color: white;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: all 0.3s;
+            background: rgba(255,255,255,0.2); border: 2px solid rgba(255,255,255,0.3);
+            padding: 12px 24px; border-radius: 25px; color: white; cursor: pointer;
+            font-size: 1rem; font-weight: 500; transition: all 0.3s;
         }}
-        .tab-btn:hover {{ background: rgba(255,255,255,0.3); }}
+        .tab-btn:hover {{ background: rgba(255,255,255,0.3); transform: translateY(-2px); }}
         .tab-btn.active {{ background: rgba(255,255,255,0.4); font-weight: bold; }}
         
-        .category-content {{ display: none; }}
-        .category-content.active {{ display: block; }}
+        .genre-content {{ display: none; }}
+        .genre-content.active {{ display: block; }}
         
         .channel-grid {{ 
             display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
             gap: 20px; 
         }}
         .channel-card {{ 
-            background: rgba(255,255,255,0.15); 
-            border-radius: 15px; 
-            padding: 20px; 
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.3s;
-            backdrop-filter: blur(10px);
+            background: rgba(255,255,255,0.15); border-radius: 15px; padding: 15px; 
+            text-align: center; cursor: pointer; transition: all 0.3s;
+            backdrop-filter: blur(10px); border: 2px solid rgba(255,255,255,0.1);
         }}
         .channel-card:hover {{ 
             transform: translateY(-5px); 
@@ -271,60 +280,51 @@ class StreamScraper:
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }}
         .channel-logo {{ 
-            width: 100px; 
-            height: 100px; 
-            object-fit: contain; 
-            margin-bottom: 15px;
-            border-radius: 10px;
-            background: white;
-            padding: 10px;
+            width: 80px; height: 80px; object-fit: contain; margin-bottom: 10px;
+            border-radius: 10px; background: white; padding: 8px;
         }}
-        h3 {{ font-size: 1rem; margin-bottom: 8px; }}
-        .country {{ font-size: 0.85rem; opacity: 0.8; }}
+        h3 {{ font-size: 0.9rem; margin-bottom: 8px; font-weight: 600; }}
+        .badge {{
+            display: inline-block; background: rgba(255,255,255,0.2);
+            padding: 4px 10px; border-radius: 12px; font-size: 0.7rem;
+        }}
         
         .player-modal {{
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.95);
-            z-index: 1000;
-            padding: 20px;
+            display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.95); z-index: 1000; padding: 20px;
         }}
-        .player-modal.active {{ display: flex; align-items: center; justify-content: center; }}
-        .player-container {{
-            width: 100%;
-            max-width: 1200px;
-            position: relative;
-        }}
-        .close-btn {{
-            position: absolute;
-            top: -40px;
-            right: 0;
-            background: rgba(255,255,255,0.2);
-            border: none;
-            color: white;
-            font-size: 2rem;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            cursor: pointer;
-            z-index: 1001;
-        }}
-        .player-iframe {{
-            width: 100%;
-            height: 80vh;
-            border: none;
-            border-radius: 10px;
-        }}
+        .player-modal.active {{ display: flex; align-items: center; justify-content: center; flex-direction: column; }}
         
-        footer {{
-            text-align: center;
-            margin-top: 50px;
-            padding: 20px;
-            opacity: 0.8;
+        .player-header {{
+            width: 100%; max-width: 1200px; display: flex;
+            justify-content: space-between; align-items: center; margin-bottom: 20px;
+        }}
+        .player-title {{ font-size: 1.5rem; font-weight: bold; }}
+        .player-controls {{ display: flex; gap: 10px; align-items: center; }}
+        
+        .source-btn {{
+            background: rgba(255,255,255,0.2); border: 2px solid rgba(255,255,255,0.3);
+            color: white; padding: 8px 16px; border-radius: 20px; cursor: pointer;
+            font-size: 0.9rem; transition: all 0.3s;
+        }}
+        .source-btn:hover {{ background: rgba(255,255,255,0.3); }}
+        .source-btn.active {{ background: rgba(255,255,255,0.4); font-weight: bold; }}
+        
+        .close-btn {{
+            background: rgba(255,0,0,0.8); border: none; color: white;
+            font-size: 1.5rem; width: 45px; height: 45px; border-radius: 50%;
+            cursor: pointer; transition: all 0.3s;
+        }}
+        .close-btn:hover {{ background: rgba(255,0,0,1); }}
+        
+        .player-container {{ width: 100%; max-width: 1200px; background: #000; border-radius: 10px; overflow: hidden; }}
+        .player-iframe {{ width: 100%; height: 80vh; border: none; }}
+        
+        footer {{ text-align: center; margin-top: 50px; padding: 20px; opacity: 0.8; }}
+        
+        @media (max-width: 768px) {{
+            h1 {{ font-size: 1.8rem; }}
+            .channel-grid {{ grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }}
         }}
     </style>
 </head>
@@ -334,69 +334,92 @@ class StreamScraper:
             <h1>📺 Live TV Streams</h1>
             <div class="stats">
                 <p>Last Updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}</p>
-                <p>Total Channels: <strong>{len(self.streams)}</strong></p>
-                <p><a href="/playlist.m3u8">Download M3U8</a> | <a href="/streams.json">View JSON API</a></p>
+                <p><strong>{len(self.streams)}</strong> Channels • Updates Every 6 Hours</p>
+                <p><a href="/playlist.m3u8">📥 M3U8</a> | <a href="/streams.json">🔗 JSON API</a></p>
             </div>
         </header>
         
-        <div class="tabs">
-            {category_tabs}
-        </div>
+        <div class="tabs">{tabs_html}</div>
+        {content_html}
         
-        {category_content}
-        
-        <footer>
-            <p>Streams update every 30 minutes • Data for Android & Web apps</p>
-        </footer>
+        <footer><p>🔄 Automatic updates every 6 hours</p></footer>
     </div>
     
-    <!-- Player Modal -->
     <div class="player-modal" id="playerModal">
+        <div class="player-header">
+            <div class="player-title" id="playerTitle"></div>
+            <div class="player-controls">
+                <div id="sourceBtns"></div>
+                <button class="close-btn" onclick="closePlayer()">✕</button>
+            </div>
+        </div>
         <div class="player-container">
-            <button class="close-btn" onclick="closePlayer()">×</button>
-            <iframe class="player-iframe" id="playerFrame" allowfullscreen></iframe>
+            <iframe class="player-iframe" id="playerFrame" allowfullscreen allow="autoplay"></iframe>
         </div>
     </div>
     
     <script>
-        // Tab switching
+        let currentChannel = null;
+        
         document.querySelectorAll('.tab-btn').forEach(btn => {{
-            btn.addEventListener('click', () => {{
-                const category = btn.dataset.category;
-                
-                // Update active states
+            btn.onclick = () => {{
+                const genre = btn.dataset.genre;
                 document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-                document.querySelectorAll('.category-content').forEach(c => c.classList.remove('active'));
-                
+                document.querySelectorAll('.genre-content').forEach(c => c.classList.remove('active'));
                 btn.classList.add('active');
-                document.querySelector(`.category-content[data-category="${{category}}"]`).classList.add('active');
-            }});
+                document.querySelector(`.genre-content[data-genre="${{genre}}"]`).classList.add('active');
+            }};
         }});
         
-        // Channel card click - play stream
         document.querySelectorAll('.channel-card').forEach(card => {{
-            card.addEventListener('click', () => {{
-                const url = card.dataset.url;
-                const type = card.dataset.type;
-                const name = card.dataset.name;
-                
-                if (type === 'iframe') {{
-                    // Open iframe in modal
-                    document.getElementById('playerFrame').src = url;
-                    document.getElementById('playerModal').classList.add('active');
-                }} else {{
-                    // Direct M3U8 - open in new tab or suggest VLC
-                    window.open(url, '_blank');
-                }}
-            }});
+            card.onclick = () => {{
+                currentChannel = JSON.parse(card.dataset.channel);
+                openPlayer(currentChannel);
+            }};
         }});
+        
+        function openPlayer(channel) {{
+            document.getElementById('playerTitle').textContent = channel.name;
+            
+            const sourcesContainer = document.getElementById('sourceBtns');
+            sourcesContainer.innerHTML = '';
+            
+            const sources = channel.sources || {{}};
+            const sourceKeys = Object.keys(sources);
+            
+            if (sourceKeys.length > 1) {{
+                sourceKeys.forEach((key, idx) => {{
+                    const btn = document.createElement('button');
+                    btn.className = 'source-btn' + (idx === 0 ? ' active' : '');
+                    btn.textContent = key.toUpperCase();
+                    btn.onclick = () => loadSource(key);
+                    sourcesContainer.appendChild(btn);
+                }});
+            }}
+            
+            loadSource(sourceKeys[0]);
+            document.getElementById('playerModal').classList.add('active');
+        }}
+        
+        function loadSource(sourceKey) {{
+            const source = currentChannel.sources[sourceKey];
+            
+            document.querySelectorAll('.source-btn').forEach(btn => {{
+                btn.classList.toggle('active', btn.textContent === sourceKey.toUpperCase());
+            }});
+            
+            if (source.type === 'direct_m3u8') {{
+                window.open(source.url, '_blank');
+            }} else {{
+                document.getElementById('playerFrame').src = source.url;
+            }}
+        }}
         
         function closePlayer() {{
             document.getElementById('playerModal').classList.remove('active');
             document.getElementById('playerFrame').src = '';
         }}
         
-        // Close on ESC key
         document.addEventListener('keydown', (e) => {{
             if (e.key === 'Escape') closePlayer();
         }});
@@ -405,7 +428,6 @@ class StreamScraper:
 </html>'''
 
 if __name__ == '__main__':
-    # Try both paths (for local and GitHub Actions)
     config_paths = ['../channels.json', 'channels.json']
     config = None
     
